@@ -526,10 +526,10 @@ fs::path static StartupShortcutPath()
 {
     std::string chain = gArgs.GetChainName();
     if (chain == CBaseChainParams::MAIN)
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Monacoin.lnk";
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Tipcoin.lnk";
     if (chain == CBaseChainParams::TESTNET) // Remove this special case when CBaseChainParams::TESTNET = "testnet4"
-        return GetSpecialFolderPath(CSIDL_STARTUP) / "Monacoin (testnet).lnk";
-    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Monacoin (%s).lnk", chain);
+        return GetSpecialFolderPath(CSIDL_STARTUP) / "Tipcoin (testnet).lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / strprintf("Tipcoin (%s).lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
