@@ -5,8 +5,8 @@ src/monacoin
 src/tipcoind
 src/monacoin-cli
 src/monacoin-tx
-src/test/test_monacoin
-src/test/test_monacoin_fuzzy
+src/test/test_tipcoin
+src/test/test_tipcoin_fuzzy
 src/qt/test/test_tipcoin-qt
 
 # autoreconf
@@ -98,7 +98,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_monacoin.coverage/
+test_tipcoin.coverage/
 total.coverage/
 coverage_percent.txt
 
