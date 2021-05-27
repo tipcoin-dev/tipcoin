@@ -42,9 +42,9 @@ QString BitcoinUnits::longName(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("MONA");
-    case mBTC: return QString("mMona");
-    case uBTC: return QString::fromUtf8("μMona");
+    case BTC: return QString("TIP");
+    case mBTC: return QString("mTip");
+    case uBTC: return QString::fromUtf8("μTip");
     case SAT: return QString("Satoshi (sat)");
     default: return QString("???");
     }
@@ -64,9 +64,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Monacoins");
-    case mBTC: return QString("Milli-Monacoins (1 / 1" THIN_SP_UTF8 "000)");
-    case uBTC: return QString("Micro-Monacoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+    case BTC: return QString("Tipcoins");
+    case mBTC: return QString("Milli-Tipcoins (1 / 1" THIN_SP_UTF8 "000)");
+    case uBTC: return QString("Micro-Tipcoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     case SAT: return QString("Satoshi (sat) (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
     default: return QString("???");
     }
