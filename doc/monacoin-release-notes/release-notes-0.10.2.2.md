@@ -51,10 +51,10 @@ is included in as separate release-notes.  This section describes the Monacoin-s
 
 Protocol:
 - Scrypt Proof-of-Work instead of sha256d, however block hashes are sha256d for performance reasons.
-- Monacoin TCP port 9401 (instead of 9401)
-- RPC TCP port 9402 (instead of 9402)
-- Testnet TCP port 19403 (instead of 19403)
-- Testnet RPC TCP port 19402 (instead of 19402)
+- Monacoin TCP port 9469 (instead of 9469)
+- RPC TCP port 9420 (instead of 9420)
+- Testnet TCP port 19469 (instead of 19469)
+- Testnet RPC TCP port 19420 (instead of 19420)
 - 84 million coin limit  (instead of 21 million)
 - Magic 0xfbc0b6db       (instead of 0xf9beb4d9)
 - Target Block Time 2.5 minutes (instead of 10 minutes)

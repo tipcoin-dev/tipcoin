@@ -45,8 +45,8 @@ If you use this option, it is recommended to upgrade to this version as soon as 
 Reset Testnet
 -------------
 
-Testnet3 has been deprecated and replaced with Testnet4. The server port has been changed to 19403 however the RPC port remains
-the same (19402).
+Testnet3 has been deprecated and replaced with Testnet4. The server port has been changed to 19469 however the RPC port remains
+the same (19420).
 
 Developers who require the new testnet blockchain paramaters can find them [here](https://github.com/monacoinproject/monacoin/blob/master-0.14/src/chainparams.cpp#L220).
 
