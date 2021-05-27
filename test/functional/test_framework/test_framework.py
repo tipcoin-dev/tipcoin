@@ -137,7 +137,7 @@ class BitcoinTestFramework(metaclass=BitcoinTestMetaClass):
 
         config = configparser.ConfigParser()
         config.read_file(open(self.options.configfile))
-        self.options.bitcoind = os.getenv("MONACOIND", default=config["environment"]["BUILDDIR"] + '/src/tipcoind' + config["environment"]["EXEEXT"])
+        self.options.bitcoind = os.getenv("TIPCOIND", default=config["environment"]["BUILDDIR"] + '/src/tipcoind' + config["environment"]["EXEEXT"])
         self.options.bitcoincli = os.getenv("MONACOINCLI", default=config["environment"]["BUILDDIR"] + '/src/monacoin-cli' + config["environment"]["EXEEXT"])
 
         os.environ['PATH'] = os.pathsep.join([

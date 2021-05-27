@@ -48,7 +48,7 @@ static const int MAX_URI_LENGTH = 255;
 
 #define QAPP_ORG_NAME "Monacoin"
 #define QAPP_ORG_DOMAIN "monacoin.org"
-#define QAPP_APP_NAME_DEFAULT "Monacoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Monacoin-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Tipcoin-Qt"
+#define QAPP_APP_NAME_TESTNET "Tipcoin-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

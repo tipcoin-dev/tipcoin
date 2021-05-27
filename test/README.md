@@ -6,7 +6,7 @@ etc.
 There are currently two sets of tests in this directory:
 
 - [functional](/test/functional) which test the functionality of
-tipcoind and monacoin-qt by interacting with them through the RPC and P2P
+tipcoind and tipcoin-qt by interacting with them through the RPC and P2P
 interfaces.
 - [util](/test/util) which tests the monacoin utilities, currently only
 monacoin-tx.

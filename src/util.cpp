@@ -81,8 +81,8 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
-const char * const BITCOIN_CONF_FILENAME = "monacoin.conf";
-const char * const BITCOIN_PID_FILENAME = "monacoin.pid";
+const char * const BITCOIN_CONF_FILENAME = "tipcoin.conf";
+const char * const BITCOIN_PID_FILENAME = "tipcoin.pid";
 
 ArgsManager gArgs;
 
@@ -723,7 +723,7 @@ fs::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/Monacoin";
 #else
     // Unix
-    return pathRet / ".monacoin";
+    return pathRet / ".tipcoin";
 #endif
 #endif
 }

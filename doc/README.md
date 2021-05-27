@@ -15,12 +15,12 @@ The following are some helpful notes on how to run Monacoin Core on your native 
 
 Unpack the files into a directory and run:
 
-- `bin/monacoin-qt` (GUI) or
+- `bin/tipcoin-qt` (GUI) or
 - `bin/tipcoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run monacoin-qt.exe.
+Unpack the files into a directory, and then run tipcoin-qt.exe.
 
 ### macOS
 

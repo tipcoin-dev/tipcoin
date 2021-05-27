@@ -24,7 +24,7 @@ make
 make install # optional
 ```
 
-This will build monacoin-qt as well if the dependencies are met.
+This will build tipcoin-qt as well if the dependencies are met.
 
 Dependencies
 ---------------------
@@ -99,7 +99,7 @@ ZMQ dependencies (provides ZMQ API 4.x):
 
 #### Dependencies for the GUI
 
-If you want to build monacoin-qt, make sure that the required packages for Qt development
+If you want to build tipcoin-qt, make sure that the required packages for Qt development
 are installed. Qt 5 is necessary to build the GUI.
 To build without GUI pass `--without-gui`.
 
@@ -111,7 +111,7 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a monacoin-qt executable will be
+Once these are installed, they will be found by configure and a tipcoin-qt executable will be
 built by default.
 
 
