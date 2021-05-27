@@ -43,7 +43,7 @@ Build Monacoin Core
 
 1. Clone the Monacoin Core source code and cd into `monacoin`
 
-        git clone https://github.com/monacoinproject/monacoin
+        git clone https://github.com/tipcoin-dev/tipcoin
         cd monacoin
 
 2.  Build Monacoin Core:

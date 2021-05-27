@@ -1,13 +1,13 @@
 Monacoin Core version 0.17.1 is now available from:
 
-  <https://github.com/monacoinproject/monacoin/releases>
+  <https://github.com/tipcoin-dev/tipcoin/releases>
 
 This is a new major version release, including new features, various bugfixes
 and performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/monacoinproject/monacoin/issues>
+  <https://github.com/tipcoin-dev/tipcoin/issues>
 
 
 How to Upgrade

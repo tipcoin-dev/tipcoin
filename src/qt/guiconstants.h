@@ -47,7 +47,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Monacoin"
-#define QAPP_ORG_DOMAIN "monacoin.org"
+#define QAPP_ORG_DOMAIN "tipcoin.us"
 #define QAPP_APP_NAME_DEFAULT "Tipcoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Tipcoin-Qt-testnet"
 

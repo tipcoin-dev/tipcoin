@@ -24,7 +24,7 @@ See [dependencies.md](dependencies.md) for a complete overview.
 
 Download the source code:
 ```
-git clone https://github.com/monacoinproject/monacoin
+git clone https://github.com/tipcoin-dev/tipcoin
 ```
 
 ## Building Monacoin Core

@@ -1,9 +1,9 @@
 Monacoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/monacoinproject/monacoin.svg?branch=master)](https://travis-ci.org/monacoinproject/monacoin)
+[![Build Status](https://travis-ci.org/tipcoin-dev/tipcoin.svg?branch=master)](https://travis-ci.org/tipcoin-dev/tipcoin)
 
-https://monacoin.org
+https://tipcoin.us
 
 What is Monacoin?
 ----------------
@@ -15,7 +15,7 @@ out collectively by the network. Monacoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Monacoin Core software, see [https://monacoin.org](https://monacoin.org).
+the Monacoin Core software, see [https://tipcoin.us](https://tipcoin.us).
 
 License
 -------
@@ -27,7 +27,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/monacoinproject/monacoin/tags) are created
+completely stable. [Tags](https://github.com/tipcoin-dev/tipcoin/tags) are created
 regularly to indicate new official, stable release versions of Monacoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).

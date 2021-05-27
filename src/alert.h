@@ -25,7 +25,7 @@ class uint256;
 
 #define PAIRTYPE(t1, t2)    std::pair<t1, t2>
 
-#define INVALID_ALERT_KEY_MESS "Warning: Alert-key is invalid. Please visit https://monacoin.org/."
+#define INVALID_ALERT_KEY_MESS "Warning: Alert-key is invalid. Please visit https://tipcoin.us/."
 
 extern std::map<uint256, CAlert> mapAlerts;
 extern CCriticalSection cs_mapAlerts;

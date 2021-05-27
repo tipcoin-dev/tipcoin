@@ -85,7 +85,7 @@ This means you cannot use a directory that located directly on the host Windows 
 
 Acquire the source in the usual way:
 
-    git clone https://github.com/monacoinproject/monacoin.git
+    git clone https://github.com/tipcoin-dev/tipcoin.git
 
 Once the source code is ready the build steps are below.
 
@@ -113,7 +113,7 @@ This means you cannot use a directory that located directly on the host Windows 
 
 Acquire the source in the usual way:
 
-    git clone https://github.com/monacoinproject/monacoin.git
+    git clone https://github.com/tipcoin-dev/tipcoin.git
 
 Then build using:
 

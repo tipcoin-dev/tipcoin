@@ -1,13 +1,13 @@
 Monacoin Core version 0.10.2.2 is now available from:
 
-  <https://github.com/monacoinproject/monacoin/releases>
+  <https://github.com/tipcoin-dev/tipcoin/releases>
 
 This is a new major version release, bringing bug fixes and translation 
 updates. It is recommended to upgrade to this version.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/monacoinproject/monacoin/issues>
+  <https://github.com/tipcoin-dev/tipcoin/issues>
 
 Upgrading and downgrading
 =========================

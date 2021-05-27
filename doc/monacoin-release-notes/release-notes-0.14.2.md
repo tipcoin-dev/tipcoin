@@ -1,13 +1,13 @@
 Monacoin Core version 0.14.2 is now available from:
 
-  <https://github.com/monacoinproject/monacoin/releases>
+  <https://github.com/tipcoin-dev/tipcoin/releases>
 
 This is a new major version release, including new features, various bugfixes
 and performance improvements, as well as updated translations.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/monacoinproject/monacoin/issues>
+  <https://github.com/tipcoin-dev/tipcoin/issues>
 
 Compatibility
 ==============
@@ -48,7 +48,7 @@ Reset Testnet
 Testnet3 has been deprecated and replaced with Testnet4. The server port has been changed to 19469 however the RPC port remains
 the same (19420).
 
-Developers who require the new testnet blockchain paramaters can find them [here](https://github.com/monacoinproject/monacoin/blob/master-0.14/src/chainparams.cpp#L220).
+Developers who require the new testnet blockchain paramaters can find them [here](https://github.com/tipcoin-dev/tipcoin/blob/master-0.14/src/chainparams.cpp#L220).
 
 Performance Improvements
 --------------
@@ -116,7 +116,7 @@ ZMQ On Windows
 
 Previously the ZeroMQ notification system was unavailable on Windows
 due to various issues with ZMQ. These have been fixed upstream and
-now ZMQ can be used on Windows. Please see [this document](https://github.com/monacoinproject/monacoin/blob/master-0.14/doc/zmq.md) for
+now ZMQ can be used on Windows. Please see [this document](https://github.com/tipcoin-dev/tipcoin/blob/master-0.14/doc/zmq.md) for
 help with using ZMQ in general.
 
 Nested RPC Commands in Debug Console
