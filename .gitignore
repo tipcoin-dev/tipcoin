@@ -3,7 +3,7 @@
 *.exe
 src/monacoin
 src/tipcoind
-src/monacoin-cli
+src/tipcoin-cli
 src/monacoin-tx
 src/test/test_tipcoin
 src/test/test_tipcoin_fuzzy

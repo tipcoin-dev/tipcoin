@@ -422,14 +422,14 @@ Note that the database cache setting has the most performance impact
 during initial sync of a node, and when catching up after downtime.
 
 
-monacoin-cli: arguments privacy
+tipcoin-cli: arguments privacy
 ------------------------------
 
 The RPC command line client gained a new argument, `-stdin`
 to read extra arguments from standard input, one per line until EOF/Ctrl-D.
 For example:
 
-    $ src/monacoin-cli -stdin walletpassphrase
+    $ src/tipcoin-cli -stdin walletpassphrase
     mysecretcode
     120
     ..... press Ctrl-D here to end input

@@ -72,7 +72,7 @@ Build Monacoin Core
 
         cd ~/monacoin/src
         cp tipcoind /usr/local/bin/
-        cp monacoin-cli /usr/local/bin/
+        cp tipcoin-cli /usr/local/bin/
 
 Running
 -------
@@ -95,8 +95,8 @@ Other commands:
 -------
 
     ./src/tipcoind -daemon # Starts the monacoin daemon.
-    ./src/monacoin-cli --help # Outputs a list of command-line options.
-    ./src/monacoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/tipcoin-cli --help # Outputs a list of command-line options.
+    ./src/tipcoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

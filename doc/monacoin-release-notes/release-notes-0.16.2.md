@@ -196,9 +196,9 @@ The `validateaddress` RPC output has been extended with a few new fields, and su
 Other changed command-line options
 ----------------------------------
 - `-debuglogfile=<file>` can be used to specify an alternative debug logging file.
-- monacoin-cli now has an `-stdinrpcpass` option to allow the RPC password to be read from standard input.
+- tipcoin-cli now has an `-stdinrpcpass` option to allow the RPC password to be read from standard input.
 - The `-usehd` option has been removed.
-- monacoin-cli now supports a new `-getinfo` flag which returns an output like that of the now-removed `getinfo` RPC.
+- tipcoin-cli now supports a new `-getinfo` flag which returns an output like that of the now-removed `getinfo` RPC.
 
 Miner block size removed
 ------------------------

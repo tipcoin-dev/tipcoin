@@ -84,7 +84,7 @@ if BUILD_BITCOIND
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += monacoin-cli monacoin-tx
+  bin_PROGRAMS += tipcoin-cli monacoin-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -494,22 +494,22 @@ tipcoind_LDADD = \
 tipcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-monacoin_cli_SOURCES = bitcoin-cli.cpp
-monacoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-monacoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-monacoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+tipcoin_cli_SOURCES = bitcoin-cli.cpp
+tipcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+tipcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+tipcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-monacoin_cli_SOURCES += bitcoin-cli-res.rc
+tipcoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-monacoin_cli_LDADD = \
+tipcoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-monacoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+tipcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #

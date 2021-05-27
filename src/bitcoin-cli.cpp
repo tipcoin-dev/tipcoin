@@ -107,10 +107,10 @@ static int AppInitRPC(int argc, char* argv[])
         std::string strUsage = PACKAGE_NAME " RPC client version " + FormatFullVersion() + "\n";
         if (!gArgs.IsArgSet("-version")) {
             strUsage += "\n"
-                "Usage:  monacoin-cli [options] <command> [params]  Send command to " PACKAGE_NAME "\n"
-                "or:     monacoin-cli [options] -named <command> [name=value]...  Send command to " PACKAGE_NAME " (with named arguments)\n"
-                "or:     monacoin-cli [options] help                List commands\n"
-                "or:     monacoin-cli [options] help <command>      Get help for a command\n";
+                "Usage:  tipcoin-cli [options] <command> [params]  Send command to " PACKAGE_NAME "\n"
+                "or:     tipcoin-cli [options] -named <command> [name=value]...  Send command to " PACKAGE_NAME " (with named arguments)\n"
+                "or:     tipcoin-cli [options] help                List commands\n"
+                "or:     tipcoin-cli [options] help <command>      Get help for a command\n";
             strUsage += "\n" + gArgs.GetHelpMessage();
         }
 
@@ -470,7 +470,7 @@ static int CommandLineRPC(int argc, char *argv[])
                             strPrint += "error message:\n"+errMsg.get_str();
 
                         if (errCode.isNum() && errCode.get_int() == RPC_WALLET_NOT_SPECIFIED) {
-                            strPrint += "\nTry adding \"-rpcwallet=<filename>\" option to monacoin-cli command line.";
+                            strPrint += "\nTry adding \"-rpcwallet=<filename>\" option to tipcoin-cli command line.";
                         }
                     }
                 } else {
