@@ -16,7 +16,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over `/Applications/Monacoin-Qt` (on Mac)
-or `monacoind`/`monacoin-qt` (on Linux).
+or `tipcoind`/`monacoin-qt` (on Linux).
 
 The first time you run version 0.15.0 or newer, your chainstate database will be converted to a
 new format, which will take anywhere from a few minutes to half an hour,
@@ -148,7 +148,7 @@ This checkpoint disappears when moancoind shutdown.
 ### Checkpoint distribution
 
 Monacoinproject plans checkpoint distribution.
-To deny checkpoint, use the argument `-cmdcheckpoint=false` with monacoind or monacoin-qt or add `cmdcheckpoint=false` to your monacoin.conf. 
+To deny checkpoint, use the argument `-cmdcheckpoint=false` with tipcoind or monacoin-qt or add `cmdcheckpoint=false` to your monacoin.conf. 
 It is a function provided for the purpose of invalidating 51% attack on monacoin, but it is not mandatory.
 
 ### Safe mode disabled by default

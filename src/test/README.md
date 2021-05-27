@@ -5,12 +5,12 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with `make check`.
 
-To run the monacoind tests manually, launch `src/test/test_monacoin`. To recompile
+To run the tipcoind tests manually, launch `src/test/test_monacoin`. To recompile
 after a test file was modified, run `make` and then run the test again. If you
 modify a non-test file, use `make -C src/test` to recompile only what's needed
-to run the monacoind tests.
+to run the tipcoind tests.
 
-To add more monacoind tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more tipcoind tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the `test/` directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 

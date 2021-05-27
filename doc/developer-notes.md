@@ -236,7 +236,7 @@ in-tree. Example use:
 $ valgrind --suppressions=contrib/valgrind.supp src/test/test_monacoin
 $ valgrind --suppressions=contrib/valgrind.supp --leak-check=full \
       --show-leak-kinds=all src/test/test_monacoin --log_level=test_suite
-$ valgrind -v --leak-check=full src/monacoind -printtoconsole
+$ valgrind -v --leak-check=full src/tipcoind -printtoconsole
 ```
 
 ### Compiling for test coverage
@@ -732,7 +732,7 @@ In addition to reviewing the upstream changes in `env_posix.cc`, you can use `ls
 check this. For example, on Linux this command will show open `.ldb` file counts:
 
 ```bash
-$ lsof -p $(pidof monacoind) |\
+$ lsof -p $(pidof tipcoind) |\
     awk 'BEGIN { fd=0; mem=0; } /ldb$/ { if ($4 == "mem") mem++; else fd++ } END { printf "mem = %s, fd = %s\n", mem, fd}'
 mem = 119, fd = 0
 ```

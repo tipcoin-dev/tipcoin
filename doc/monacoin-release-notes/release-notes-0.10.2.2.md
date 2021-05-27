@@ -18,7 +18,7 @@ How to Upgrade
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
 installer (on Windows) or just copy over /Applications/Monacoin-Qt (on Mac) or
-monacoind/monacoin-qt (on Linux).
+tipcoind/monacoin-qt (on Linux).
 
 Downgrade warning
 ------------------
@@ -77,7 +77,7 @@ Notable changes since Monacoin v0.8
 ===================================
 
 - The Block data and indexes of v0.10 are incompatible with v0.8 clients.  You can upgrade from v0.8 but you downgrading is not possible.  For this reason you may want to make a backup copy of your Data Directory.
-- monacoind no longer sends RPC commands.  You must use the separate monacoin-cli command line utility.
+- tipcoind no longer sends RPC commands.  You must use the separate monacoin-cli command line utility.
 - Watch-Only addresses are now possible.
 
 Credits

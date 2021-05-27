@@ -77,10 +77,10 @@ over the network (`CBlock`, `CTransaction`, etc, along with the network-level
 wrappers for them, `msg_block`, `msg_tx`, etc).
 
 - P2P tests have two threads. One thread handles all network communication
-with the monacoind(s) being tested in a callback-based event loop; the other
+with the tipcoind(s) being tested in a callback-based event loop; the other
 implements the test logic.
 
-- `P2PConnection` is the class used to connect to a monacoind.  `P2PInterface`
+- `P2PConnection` is the class used to connect to a tipcoind.  `P2PInterface`
 contains the higher level logic for processing P2P payloads and connecting to
 the Monacoin Core node application logic. For custom behaviour, subclass the
 P2PInterface object and override the callback methods.
@@ -100,7 +100,7 @@ Base class for functional tests.
 Generally useful functions.
 
 #### [test_framework/mininode.py](test_framework/mininode.py)
-Basic code to support P2P connectivity to a monacoind.
+Basic code to support P2P connectivity to a tipcoind.
 
 #### [test_framework/script.py](test_framework/script.py)
 Utilities for manipulating transaction scripts (originally from python-bitcoinlib)

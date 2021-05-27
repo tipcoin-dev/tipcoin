@@ -80,7 +80,7 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += monacoind
+  bin_PROGRAMS += tipcoind
 endif
 
 if BUILD_BITCOIN_UTILS
@@ -468,16 +468,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-monacoind_SOURCES = bitcoind.cpp
-monacoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-monacoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-monacoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+tipcoind_SOURCES = bitcoind.cpp
+tipcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+tipcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+tipcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-monacoind_SOURCES += bitcoind-res.rc
+tipcoind_SOURCES += bitcoind-res.rc
 endif
 
-monacoind_LDADD = \
+tipcoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_COMMON) \
@@ -491,7 +491,7 @@ monacoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-monacoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+tipcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
 monacoin_cli_SOURCES = bitcoin-cli.cpp

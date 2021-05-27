@@ -71,13 +71,13 @@ Build Monacoin Core
     or
 
         cd ~/monacoin/src
-        cp monacoind /usr/local/bin/
+        cp tipcoind /usr/local/bin/
         cp monacoin-cli /usr/local/bin/
 
 Running
 -------
 
-Monacoin Core is now available at `./src/monacoind`
+Monacoin Core is now available at `./src/tipcoind`
 
 Before running, it's recommended that you create an RPC configuration file.
 
@@ -85,7 +85,7 @@ Before running, it's recommended that you create an RPC configuration file.
 
     chmod 600 "/Users/${USER}/Library/Application Support/Monacoin/monacoin.conf"
 
-The first time you run monacoind, it will start downloading the blockchain. This process could take several hours.
+The first time you run tipcoind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
@@ -94,7 +94,7 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/monacoind -daemon # Starts the monacoin daemon.
+    ./src/tipcoind -daemon # Starts the monacoin daemon.
     ./src/monacoin-cli --help # Outputs a list of command-line options.
     ./src/monacoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
