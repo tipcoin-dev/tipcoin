@@ -9,5 +9,5 @@ if ENABLE_QT
 endif
 
 if BUILD_BITCOIN_UTILS
-  dist_man1_MANS+=tipcoin-cli.1 monacoin-tx.1
+  dist_man1_MANS+=tipcoin-cli.1 tipcoin-tx.1
 endif

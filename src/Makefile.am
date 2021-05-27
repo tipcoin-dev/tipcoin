@@ -84,7 +84,7 @@ if BUILD_BITCOIND
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += tipcoin-cli monacoin-tx
+  bin_PROGRAMS += tipcoin-cli tipcoin-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -513,16 +513,16 @@ tipcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-monacoin_tx_SOURCES = bitcoin-tx.cpp
-monacoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-monacoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-monacoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+tipcoin_tx_SOURCES = bitcoin-tx.cpp
+tipcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+tipcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+tipcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-monacoin_tx_SOURCES += bitcoin-tx-res.rc
+tipcoin_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-monacoin_tx_LDADD = \
+tipcoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -530,7 +530,7 @@ monacoin_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-monacoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+tipcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

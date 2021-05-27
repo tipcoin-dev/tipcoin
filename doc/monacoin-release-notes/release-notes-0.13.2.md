@@ -330,7 +330,7 @@ and are affected by this change:
 - RPC `decodescript`
 - REST `/rest/tx/` (JSON format)
 - REST `/rest/block/` (JSON format when including extended tx details)
-- `monacoin-tx -json`
+- `tipcoin-tx -json`
 
 For example, the `scriptSig.asm` property of a transaction input that
 previously showed an assembly representation of:
@@ -751,7 +751,7 @@ Low-level RPC changes
     - RPC `decodescript`
     - REST `/rest/tx/` (JSON format)
     - REST `/rest/block/` (JSON format when including extended tx details)
-    - `monacoin-tx -json`
+    - `tipcoin-tx -json`
 
 - The sorting of the output of the `getrawmempool` output has changed.
 

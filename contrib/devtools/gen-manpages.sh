@@ -9,7 +9,7 @@ MANDIR=${MANDIR:-$TOPDIR/doc/man}
 
 TIPCOIND=${BITCOIND:-$BINDIR/tipcoind}
 MONACOINCLI=${BITCOINCLI:-$BINDIR/tipcoin-cli}
-MONACOINTX=${BITCOINTX:-$BINDIR/monacoin-tx}
+MONACOINTX=${BITCOINTX:-$BINDIR/tipcoin-tx}
 MONACOINQT=${BITCOINQT:-$BINDIR/qt/tipcoin-qt}
 
 [ ! -x $TIPCOIND ] && echo "$TIPCOIND not found or not executable." && exit 1

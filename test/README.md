@@ -9,7 +9,7 @@ There are currently two sets of tests in this directory:
 tipcoind and tipcoin-qt by interacting with them through the RPC and P2P
 interfaces.
 - [util](/test/util) which tests the monacoin utilities, currently only
-monacoin-tx.
+tipcoin-tx.
 
 The util tests are run as part of `make check` target. The functional
 tests are run by the travis continuous build process whenever a pull

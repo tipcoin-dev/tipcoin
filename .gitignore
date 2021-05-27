@@ -4,7 +4,7 @@
 src/monacoin
 src/tipcoind
 src/tipcoin-cli
-src/monacoin-tx
+src/tipcoin-tx
 src/test/test_tipcoin
 src/test/test_tipcoin_fuzzy
 src/qt/test/test_tipcoin-qt
