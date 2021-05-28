@@ -66,11 +66,11 @@
         <translation>آدرس‌های گیرنده</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Tipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>اینها آدرس‌های شما برای ارسال وجوه هستند. همیشه قبل از ارسال، مقدار و آدرس گیرنده را بررسی کنید.</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Tipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>اینها آدرس‌های بیتکوین شما برای دریافت وجوه هستند. توصیه می‌شود برای هر دریافت از یک آدرس جدید استفاده کنید.</translation>
     </message>
     <message>
@@ -346,7 +346,7 @@
         <translation>فهرست‌بندی نمایه بلاک‌ها…</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
+        <source>Send coins to a Tipcoin address</source>
         <translation>ارسال کوین به آدرس monacoin</translation>
     </message>
     <message>
@@ -366,7 +366,7 @@
         <translation>تایید پیام</translation>
     </message>
     <message>
-        <source>Monacoin</source>
+        <source>Tipcoin</source>
         <translation>monacoin</translation>
     </message>
     <message>
@@ -394,12 +394,12 @@
         <translation>رمزنگاری کلیدهای شخصی متعلق به کیف‌پول</translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
-        <translation>پیام‌ها را با آدرس Monacoin خود امضا کنید تا مالکیت آن‌ها را اثبات کنید</translation>
+        <source>Sign messages with your Tipcoin addresses to prove you own them</source>
+        <translation>پیام‌ها را با آدرس Tipcoin خود امضا کنید تا مالکیت آن‌ها را اثبات کنید</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
-        <translation>پیام‌ها را تائید کنید تا از امضاشدن آن‌ها با آدرس Monacoin مطمئن شوید</translation>
+        <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
+        <translation>پیام‌ها را تائید کنید تا از امضاشدن آن‌ها با آدرس Tipcoin مطمئن شوید</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -419,7 +419,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>درخواست پرداخت (ساخت کد QR و Monacoin: URIs)</translation>
+        <translation>درخواست پرداخت (ساخت کد QR و Tipcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -431,11 +431,11 @@
     </message>
     <message>
         <source>Open a monacoin: URI or payment request</source>
-        <translation>بازکردن Monacoin: آدرس یا درخواست پرداخت</translation>
+        <translation>بازکردن Tipcoin: آدرس یا درخواست پرداخت</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Monacoin network</source>
-        <translation><numerusform>%n ارتباط فعال به شبکه Monacoin</numerusform><numerusform>%n ارتباط فعال به شبکه Monacoin</numerusform></translation>
+        <source>%n active connection(s) to Tipcoin network</source>
+        <translation><numerusform>%n ارتباط فعال به شبکه Tipcoin</numerusform><numerusform>%n ارتباط فعال به شبکه Tipcoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -628,7 +628,7 @@
         <translation>ویرایش آدرس ارسالی</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Monacoin address.</source>
+        <source>The entered address "%1" is not a valid Tipcoin address.</source>
         <translation>آدرس وارد شده "%1" آدرس معتبر monacoin نیست.</translation>
     </message>
     </context>
@@ -657,7 +657,7 @@
         <translation>به %1 خوش آمدید.</translation>
     </message>
     <message>
-        <source>Monacoin</source>
+        <source>Tipcoin</source>
         <translation>monacoin</translation>
     </message>
     <message>
@@ -761,7 +761,7 @@
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Monacoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tipcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه monacoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     <message>

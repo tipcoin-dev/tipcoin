@@ -85,12 +85,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Tipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Tipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -455,8 +455,8 @@
     </message>
     <message>
         <location line="-880"/>
-        <source>Send coins to a Monacoin address</source>
-        <translation>Send coins to a Monacoin address</translation>
+        <source>Send coins to a Tipcoin address</source>
+        <translation>Send coins to a Tipcoin address</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -485,8 +485,8 @@
     </message>
     <message>
         <location line="+570"/>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <location line="-792"/>
@@ -520,13 +520,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
-        <translation>Sign messages with your Monacoin addresses to prove you own them</translation>
+        <source>Sign messages with your Tipcoin addresses to prove you own them</source>
+        <translation>Sign messages with your Tipcoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Monacoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Tipcoin addresses</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -575,10 +575,10 @@
     </message>
     <message numerus="yes">
         <location line="+410"/>
-        <source>%n active connection(s) to Monacoin network</source>
+        <source>%n active connection(s) to Tipcoin network</source>
         <translation>
-            <numerusform>%n active connection to Monacoin network</numerusform>
-            <numerusform>%n active connections to Monacoin network</numerusform>
+            <numerusform>%n active connection to Tipcoin network</numerusform>
+            <numerusform>%n active connections to Tipcoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -636,7 +636,7 @@
     </message>
     <message>
         <location line="-494"/>
-        <source>Show the %1 help message to get a list with possible Monacoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Tipcoin command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -722,7 +722,7 @@
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+529"/>
-        <source>A fatal error occurred. Monacoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Tipcoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -960,7 +960,7 @@
     </message>
     <message>
         <location line="+75"/>
-        <source>The entered address &quot;%1&quot; is not a valid Monacoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Tipcoin address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1080,8 +1080,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+20"/>
-        <source>Monacoin</source>
-        <translation type="unfinished">Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation type="unfinished">Tipcoin</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1095,7 +1095,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>%1 will download and store a copy of the Monacoin block chain.</source>
+        <source>%1 will download and store a copy of the Tipcoin block chain.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1382,8 +1382,8 @@
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Monacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Monacoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Tipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Tipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1402,7 +1402,7 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Monacoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Tipcoin network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1450,7 +1450,7 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Monacoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Tipcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1585,8 +1585,8 @@
     <message>
         <location line="+62"/>
         <location line="+386"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Monacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Monacoin network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tipcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Tipcoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -1711,7 +1711,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Monacoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Tipcoin address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1843,7 +1843,7 @@
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+115"/>
-        <source>Enter a Monacoin address (e.g. %1)</source>
+        <source>Enter a Tipcoin address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2459,7 +2459,7 @@
     <message>
         <location line="-3"/>
         <location line="+46"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Monacoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Tipcoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3005,7 +3005,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+101"/>
-        <source>Warning: Invalid Monacoin address</source>
+        <source>Warning: Invalid Tipcoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3060,7 +3060,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+39"/>
-        <source>The Monacoin address to send the payment to</source>
+        <source>The Tipcoin address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3122,7 +3122,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+54"/>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Monacoin network.</source>
+        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3184,7 +3184,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+18"/>
-        <source>The Monacoin address to sign the message with</source>
+        <source>The Tipcoin address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3226,8 +3226,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Monacoin address</source>
-        <translation>Sign the message to prove you own this Monacoin address</translation>
+        <source>Sign the message to prove you own this Tipcoin address</source>
+        <translation>Sign the message to prove you own this Tipcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3257,13 +3257,13 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+21"/>
-        <source>The Monacoin address the message was signed with</source>
+        <source>The Tipcoin address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Monacoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Monacoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Tipcoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Tipcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4097,8 +4097,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="-184"/>
-        <source>Monacoin Core</source>
-        <translation type="unfinished">Monacoin Core</translation>
+        <source>Tipcoin Core</source>
+        <translation type="unfinished">Tipcoin Core</translation>
     </message>
     <message>
         <location line="+1"/>

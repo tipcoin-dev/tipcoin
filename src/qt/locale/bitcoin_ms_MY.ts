@@ -68,12 +68,12 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation>alamat-alamat penerimaan</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ini adalah alamat Monacoin anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
+        <source>These are your Tipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ini adalah alamat Tipcoin anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ini adalah alamat Monacoin anda untuk menerima pembayaraan.  Anda disyorkan untuk menguna alamat menerima untuk setiap transaksi.</translation>
+        <source>These are your Tipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ini adalah alamat Tipcoin anda untuk menerima pembayaraan.  Anda disyorkan untuk menguna alamat menerima untuk setiap transaksi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -358,8 +358,8 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation>Reindexi blok pada cakera...</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
-        <translation>Menghantar koin kepada alamat Monacoin</translation>
+        <source>Send coins to a Tipcoin address</source>
+        <translation>Menghantar koin kepada alamat Tipcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -382,8 +382,8 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation>sahkan mesej</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -410,12 +410,12 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation>sulitkan kata laluan milik peribadi anda </translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
+        <source>Sign messages with your Tipcoin addresses to prove you own them</source>
         <translation>sahkan mesej bersama alamat monacoin anda untuk menunjukkan alamat ini anda punya</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
-        <translation>Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Monacoin yang ditentukan</translation>
+        <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
+        <translation>Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Tipcoin yang ditentukan</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -472,8 +472,8 @@ Alihkan fail data ke dalam tab semasa</translation>
 <context>
     <name>Intro</name>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     </context>
 <context>

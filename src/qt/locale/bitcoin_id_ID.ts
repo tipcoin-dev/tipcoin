@@ -66,12 +66,12 @@
         <translation>Alamat-alamat penerima</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Berikut ialah alamat-alamat Monacoin Anda yang digunakan untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
+        <source>These are your Tipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Berikut ialah alamat-alamat Tipcoin Anda yang digunakan untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Berikut ialah alamat-alamat Monacoin Anda yang digunakan untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerimaan baru untuk setiap transaksi.</translation>
+        <source>These are your Tipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Berikut ialah alamat-alamat Tipcoin Anda yang digunakan untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerimaan baru untuk setiap transaksi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -346,8 +346,8 @@
         <translation>Mengindex ulang blok di dalam disk...</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
-        <translation>Kirim koin ke alamat Monacoin</translation>
+        <source>Send coins to a Tipcoin address</source>
+        <translation>Kirim koin ke alamat Tipcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -370,8 +370,8 @@
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -398,12 +398,12 @@
         <translation>Enkripsi private key yang dimiliki dompet Anda</translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
-        <translation>Tanda tangani sebuah pesan menggunakan alamat Monacoin Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
+        <source>Sign messages with your Tipcoin addresses to prove you own them</source>
+        <translation>Tanda tangani sebuah pesan menggunakan alamat Tipcoin Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
-        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat Monacoin tertentu</translation>
+        <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
+        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat Tipcoin tertentu</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -442,8 +442,8 @@
         <translation>&amp;pilihan Command-line</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Monacoin network</source>
-        <translation><numerusform>%n koneksi aktif ke jaringan Monacoin</numerusform></translation>
+        <source>%n active connection(s) to Tipcoin network</source>
+        <translation><numerusform>%n koneksi aktif ke jaringan Tipcoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -486,8 +486,8 @@
         <translation>Terbaru</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Monacoin command-line options</source>
-        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Monacoin yang memungkinkan</translation>
+        <source>Show the %1 help message to get a list with possible Tipcoin command-line options</source>
+        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Tipcoin yang memungkinkan</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -556,8 +556,8 @@
         <translation>Dompet saat ini &lt;b&gt;terenkripsi&lt;/b&gt; dan &lt;b&gt;terkunci&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Monacoin can no longer continue safely and will quit.</source>
-        <translation>Terjadi Kesalahan Fatal. Monacoin Tidak Dapat Melanjutkan Dengan Aman Dan Akan Keluar</translation>
+        <source>A fatal error occurred. Tipcoin can no longer continue safely and will quit.</source>
+        <translation>Terjadi Kesalahan Fatal. Tipcoin Tidak Dapat Melanjutkan Dengan Aman Dan Akan Keluar</translation>
     </message>
 </context>
 <context>
@@ -734,8 +734,8 @@
         <translation>Ubah alamat pengirim</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Monacoin address.</source>
-        <translation>Alamat yang dimasukkan "%1" bukanlah alamat Monacoin yang valid.</translation>
+        <source>The entered address "%1" is not a valid Tipcoin address.</source>
+        <translation>Alamat yang dimasukkan "%1" bukanlah alamat Tipcoin yang valid.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -823,8 +823,8 @@
         <translation>Gunakan direktori pilihan Anda:</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -835,8 +835,8 @@
         <translation>%1 GB data akan disimpan di direktori ini.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Monacoin block chain.</source>
-        <translation>%1 akan mengunduh dan menyimpan salinan Monacoin block chain.</translation>
+        <source>%1 will download and store a copy of the Tipcoin block chain.</source>
+        <translation>%1 akan mengunduh dan menyimpan salinan Tipcoin block chain.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -867,7 +867,7 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
-        <translation>Transaksi-transaksi terkini mungkin belum terlihat dan oleh karenanya, saldo dompet Anda mungkin tidak tepat. Informasi ini akan akurat ketika dompet Anda tersinkronisasi dengan jaringan Monacoin, seperti rincian berikut.</translation>
+        <translation>Transaksi-transaksi terkini mungkin belum terlihat dan oleh karenanya, saldo dompet Anda mungkin tidak tepat. Informasi ini akan akurat ketika dompet Anda tersinkronisasi dengan jaringan Tipcoin, seperti rincian berikut.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1008,8 +1008,8 @@
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
-        <source>Automatically open the Monacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client Monacoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+        <source>Automatically open the Tipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client Tipcoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1024,8 +1024,8 @@
         <translation>Terima koneksi-koneksi masuk</translation>
     </message>
     <message>
-        <source>Connect to the Monacoin network through a SOCKS5 proxy.</source>
-        <translation>Hubungkan ke jaringan Monacoin melalui SOCKS5 proxy.</translation>
+        <source>Connect to the Tipcoin network through a SOCKS5 proxy.</source>
+        <translation>Hubungkan ke jaringan Tipcoin melalui SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1143,8 +1143,8 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Monacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Monacoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tipcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Tipcoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1212,8 +1212,8 @@
         <translation>Nilai</translation>
     </message>
     <message>
-        <source>Enter a Monacoin address (e.g. %1)</source>
-        <translation>Masukkan alamat Monacoin (contoh %1)</translation>
+        <source>Enter a Tipcoin address (e.g. %1)</source>
+        <translation>Masukkan alamat Tipcoin (contoh %1)</translation>
     </message>
     <message>
         <source>%1 h</source>
@@ -1739,8 +1739,8 @@
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Monacoin address</source>
-        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Monacoin ini</translation>
+        <source>Sign the message to prove you own this Tipcoin address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Tipcoin ini</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1856,8 +1856,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Monacoin Core</source>
-        <translation>Monacoin Core</translation>
+        <source>Tipcoin Core</source>
+        <translation>Tipcoin Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

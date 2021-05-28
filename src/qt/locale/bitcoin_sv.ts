@@ -66,12 +66,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Monacoin-adresser för att skicka betalningar. Kontrollera alltid summan och den mottagande adressen innan du skickar monacoin.</translation>
+        <source>These are your Tipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina Tipcoin-adresser för att skicka betalningar. Kontrollera alltid summan och den mottagande adressen innan du skickar monacoin.</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina Monacoin-adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
+        <source>These are your Tipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta är dina Tipcoin-adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -347,8 +347,8 @@ Var vänlig och försök igen.</translation>
         <translation>Återindexerar block på disken...</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
-        <translation>Skicka monacoin till en Monacoin-adress</translation>
+        <source>Send coins to a Tipcoin address</source>
+        <translation>Skicka monacoin till en Tipcoin-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -371,8 +371,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -399,12 +399,12 @@ Var vänlig och försök igen.</translation>
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina Monacoin-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your Tipcoin addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina Tipcoin-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna Monacoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna Tipcoin-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -443,8 +443,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Monacoin network</source>
-        <translation><numerusform>%n aktiva anslutningar till Monacoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Monacoin-nätverket.</numerusform></translation>
+        <source>%n active connection(s) to Tipcoin network</source>
+        <translation><numerusform>%n aktiva anslutningar till Tipcoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Tipcoin-nätverket.</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -487,8 +487,8 @@ Var vänlig och försök igen.</translation>
         <translation>Uppdaterad</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Monacoin command-line options</source>
-        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Monacoin kommandoradsalternativ.</translation>
+        <source>Show the %1 help message to get a list with possible Tipcoin command-line options</source>
+        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Tipcoin kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -557,8 +557,8 @@ Var vänlig och försök igen.</translation>
         <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Monacoin can no longer continue safely and will quit.</source>
-        <translation>Ett kritiskt fel uppstod. Monacoin kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. Tipcoin can no longer continue safely and will quit.</source>
+        <translation>Ett kritiskt fel uppstod. Tipcoin kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -747,8 +747,8 @@ Var vänlig och försök igen.</translation>
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Monacoin address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Monacoin-adress.</translation>
+        <source>The entered address "%1" is not a valid Tipcoin address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig Tipcoin-adress.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -832,8 +832,8 @@ Var vänlig och försök igen.</translation>
         <translation>Använd en anpassad datakatalog:</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -844,8 +844,8 @@ Var vänlig och försök igen.</translation>
         <translation>Ungefär %1 GB data kommer att lagras i den här katalogen.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Monacoin block chain.</source>
-        <translation>%1 kommer att ladda ner och lagra en kopia av Monacoin-blockkedjan.</translation>
+        <source>%1 will download and store a copy of the Tipcoin block chain.</source>
+        <translation>%1 kommer att ladda ner och lagra en kopia av Tipcoin-blockkedjan.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -876,7 +876,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
-        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med Monacoin-nätverket enligt detaljer nedan.</translation>
+        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med Tipcoin-nätverket enligt detaljer nedan.</translation>
     </message>
     <message>
         <source>Attempting to spend tipcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1049,8 +1049,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Spendera obekräftad växel</translation>
     </message>
     <message>
-        <source>Automatically open the Monacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Monacoin-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
+        <source>Automatically open the Tipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt Tipcoin-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1065,8 +1065,8 @@ Var vänlig och försök igen.</translation>
         <translation>Tillåt ankommande anslutningar</translation>
     </message>
     <message>
-        <source>Connect to the Monacoin network through a SOCKS5 proxy.</source>
-        <translation>Anslut till Monacoin-nätverket genom en SOCKS5-proxy.</translation>
+        <source>Connect to the Tipcoin network through a SOCKS5 proxy.</source>
+        <translation>Anslut till Tipcoin-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1101,8 +1101,8 @@ Var vänlig och försök igen.</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Monacoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Anslut till Monacoin-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
+        <source>Connect to the Tipcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Anslut till Tipcoin-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1208,8 +1208,8 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Monacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Monacoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tipcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Tipcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1299,8 +1299,8 @@ Var vänlig och försök igen.</translation>
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Monacoin address or malformed URI parameters.</source>
-        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig Monacoin-adress eller felaktiga URI-parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Tipcoin address or malformed URI parameters.</source>
+        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig Tipcoin-adress eller felaktiga URI-parametrar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1401,8 +1401,8 @@ Var vänlig och försök igen.</translation>
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Enter a Monacoin address (e.g. %1)</source>
-        <translation>Ange en Monacoin-adress (t.ex. %1)</translation>
+        <source>Enter a Tipcoin address (e.g. %1)</source>
+        <translation>Ange en Tipcoin-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1821,8 +1821,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Meddelande:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Monacoin network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över Monacoin-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Tipcoin network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över Tipcoin-nätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2226,8 +2226,8 @@ Var vänlig och försök igen.</translation>
         <translation><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Monacoin address</source>
-        <translation>Varning: Ogiltig Monacoin-adress</translation>
+        <source>Warning: Invalid Tipcoin address</source>
+        <translation>Varning: Ogiltig Tipcoin-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2269,8 +2269,8 @@ Var vänlig och försök igen.</translation>
         <translation>Detta är en normal betalning.</translation>
     </message>
     <message>
-        <source>The Monacoin address to send the payment to</source>
-        <translation>Monacoin-adress att sända betalning till</translation>
+        <source>The Tipcoin address to send the payment to</source>
+        <translation>Tipcoin-adress att sända betalning till</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2317,8 +2317,8 @@ Var vänlig och försök igen.</translation>
         <translation>Ange en etikett för denna adress för att lägga till den i listan med använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Monacoin network.</source>
-        <translation>Ett meddelande som bifogades monacoin: -URIn och som lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Monacoin-nätverket.</translation>
+        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
+        <translation>Ett meddelande som bifogades monacoin: -URIn och som lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Tipcoin-nätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2366,8 +2366,8 @@ Var vänlig och försök igen.</translation>
         <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot monacoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
-        <source>The Monacoin address to sign the message with</source>
-        <translation>Monacoin-adress att signera meddelandet med</translation>
+        <source>The Tipcoin address to sign the message with</source>
+        <translation>Tipcoin-adress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2398,8 +2398,8 @@ Var vänlig och försök igen.</translation>
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Monacoin address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Monacoin-adress</translation>
+        <source>Sign the message to prove you own this Tipcoin address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Tipcoin-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2422,12 +2422,12 @@ Var vänlig och försök igen.</translation>
         <translation>Ange mottagarens adress, meddelande (kopiera radbrytningar, mellanslag, TAB-tecken, osv. exakt) och signatur nedan, för att verifiera meddelandet. Undvik att läsa in mera information i signaturen än vad som stod i själva det signerade meddelandet, för att undvika ett man-in-the-middle-angrepp. Notera att detta endast bevisar att den signerande parten tar emot med adressen, det bevisar inte vem som skickat transaktionen!</translation>
     </message>
     <message>
-        <source>The Monacoin address the message was signed with</source>
-        <translation>Monacoin-adress som meddelandet signerades med</translation>
+        <source>The Tipcoin address the message was signed with</source>
+        <translation>Tipcoin-adress som meddelandet signerades med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Monacoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven Monacoin-adress</translation>
+        <source>Verify the message to ensure it was signed with the specified Tipcoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven Tipcoin-adress</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3063,8 +3063,8 @@ Var vänlig och försök igen.</translation>
         <translation>Kunde inte starta HTTP-server. Se avlusningsloggen för detaljer.</translation>
     </message>
     <message>
-        <source>Monacoin Core</source>
-        <translation>Monacoin Core</translation>
+        <source>Tipcoin Core</source>
+        <translation>Tipcoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

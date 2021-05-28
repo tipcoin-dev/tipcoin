@@ -38,17 +38,17 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see the section *Disable-Wallet mode* below).
 
-Build Monacoin Core
+Build Tipcoin Core
 ------------------------
 
-1. Clone the Monacoin Core source code and cd into `monacoin`
+1. Clone the Tipcoin Core source code and cd into `monacoin`
 
         git clone https://github.com/tipcoin-dev/tipcoin
         cd monacoin
 
-2.  Build Monacoin Core:
+2.  Build Tipcoin Core:
 
-    Configure and build the headless Monacoin Core binaries as well as the GUI (if Qt is found).
+    Configure and build the headless Tipcoin Core binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -77,19 +77,19 @@ Build Monacoin Core
 Running
 -------
 
-Monacoin Core is now available at `./src/tipcoind`
+Tipcoin Core is now available at `./src/tipcoind`
 
 Before running, it's recommended that you create an RPC configuration file.
 
-    echo -e "rpcuser=monacoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Monacoin/tipcoin.conf"
+    echo -e "rpcuser=monacoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Tipcoin/tipcoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Monacoin/tipcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Tipcoin/tipcoin.conf"
 
 The first time you run tipcoind, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Monacoin/debug.log
+    tail -f $HOME/Library/Application\ Support/Tipcoin/debug.log
 
 Other commands:
 -------

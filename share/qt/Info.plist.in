@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>org.tipcoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Monacoin payment request</string>
+      <string>Tipcoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

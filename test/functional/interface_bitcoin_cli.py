@@ -19,7 +19,7 @@ class TestBitcoinCli(BitcoinTestFramework):
         """Main test logic"""
 
         cli_response = self.nodes[0].cli("-version").send_cli()
-        assert("Monacoin Core RPC client version" in cli_response)
+        assert("Tipcoin Core RPC client version" in cli_response)
 
         self.log.info("Compare responses from gewalletinfo RPC and `tipcoin-cli getwalletinfo`")
         cli_response = self.nodes[0].cli.getwalletinfo()

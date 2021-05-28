@@ -66,12 +66,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши Monacoin адреса для отправки платежа. Всегда проверяйте сумму и адрес получателя перед отправкой платежа.</translation>
+        <source>These are your Tipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши Tipcoin адреса для отправки платежа. Всегда проверяйте сумму и адрес получателя перед отправкой платежа.</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши Monacoin адреса для получения платежей. Настоятельно рекомендуем использовать новые адреса для получения каждой транзакции.</translation>
+        <source>These are your Tipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши Tipcoin адреса для получения платежей. Настоятельно рекомендуем использовать новые адреса для получения каждой транзакции.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -346,8 +346,8 @@
         <translation>Реиндексация блоков на диске...</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
-        <translation>Послать средства на Monacoin адрес</translation>
+        <source>Send coins to a Tipcoin address</source>
+        <translation>Послать средства на Tipcoin адрес</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -370,8 +370,8 @@
         <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin Core</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -398,12 +398,12 @@
         <translation>Зашифровать приватные ключи, принадлежащие вашему кошельку</translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
-        <translation>Подписывайте сообщения Monacoin адресами чтобы подтвердить что это написали именно Вы</translation>
+        <source>Sign messages with your Tipcoin addresses to prove you own them</source>
+        <translation>Подписывайте сообщения Tipcoin адресами чтобы подтвердить что это написали именно Вы</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
-        <translation>Проверяйте сообщения чтобы убедиться что они подписаны конкретными Monacoin адресами</translation>
+        <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
+        <translation>Проверяйте сообщения чтобы убедиться что они подписаны конкретными Tipcoin адресами</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -431,7 +431,7 @@
     </message>
     <message>
         <source>Open a monacoin: URI or payment request</source>
-        <translation>Открыть Monacoin: URI или запрос платежа</translation>
+        <translation>Открыть Tipcoin: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -534,8 +534,8 @@
         <translation>Кошелек &lt;b&gt;зашифрован&lt;/b&gt; и сейчас &lt;b&gt;заблокирован&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Monacoin can no longer continue safely and will quit.</source>
-        <translation>Произошла критическая ошибка. Monacoin больше не может продолжать безопасную работу и будет закрыт.</translation>
+        <source>A fatal error occurred. Tipcoin can no longer continue safely and will quit.</source>
+        <translation>Произошла критическая ошибка. Tipcoin больше не может продолжать безопасную работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -749,8 +749,8 @@
         <translation>Использовать пользовательскую директорию данных</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin Core</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin Core</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -918,8 +918,8 @@
         <translation>Разрешить входящие соединения</translation>
     </message>
     <message>
-        <source>Connect to the Monacoin network through a SOCKS5 proxy.</source>
-        <translation>Подключится к сети Monacoin через SOCKS5 прокси.</translation>
+        <source>Connect to the Tipcoin network through a SOCKS5 proxy.</source>
+        <translation>Подключится к сети Tipcoin через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1126,7 +1126,7 @@
         <translation>Количество</translation>
     </message>
     <message>
-        <source>Enter a Monacoin address (e.g. %1)</source>
+        <source>Enter a Tipcoin address (e.g. %1)</source>
         <translation>Введите Монакоин-адрес (напр. %1)</translation>
     </message>
     <message>
@@ -2152,8 +2152,8 @@
         <translation>Невозможно запустить HTTP-сервер. Для получения более детальной информации необходимо обратиться к журналу отладки.</translation>
     </message>
     <message>
-        <source>Monacoin Core</source>
-        <translation>Monacoin Core</translation>
+        <source>Tipcoin Core</source>
+        <translation>Tipcoin Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

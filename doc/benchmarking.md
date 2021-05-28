@@ -1,12 +1,12 @@
 Benchmarking
 ============
 
-Monacoin Core has an internal benchmarking framework, with benchmarks
+Tipcoin Core has an internal benchmarking framework, with benchmarks
 for cryptographic algorithms (e.g. SHA1, SHA256, SHA512, RIPEMD160), as well as the rolling bloom filter.
 
 Running
 ---------------------
-After compiling Monacoin-core, the benchmarks can be run with:
+After compiling Tipcoin-core, the benchmarks can be run with:
 
     src/bench/bench_Monacoin
 

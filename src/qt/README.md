@@ -32,7 +32,7 @@ Tests.
 
 ### bitcoingui.(h/cpp)
 
-Represents the main window of the Monacoin UI.
+Represents the main window of the Tipcoin UI.
 
 ### \*model.(h/cpp)
 

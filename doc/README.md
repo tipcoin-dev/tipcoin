@@ -1,15 +1,15 @@
-Monacoin Core
+Tipcoin Core
 =============
 
 Setup
 ---------------------
-Monacoin Core is the original Monacoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Monacoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Tipcoin Core is the original Tipcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Tipcoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Monacoin Core, visit [tipcoin.us](https://tipcoin.us).
+To download Tipcoin Core, visit [tipcoin.us](https://tipcoin.us).
 
 Running
 ---------------------
-The following are some helpful notes on how to run Monacoin Core on your native platform.
+The following are some helpful notes on how to run Tipcoin Core on your native platform.
 
 ### Unix
 
@@ -24,18 +24,18 @@ Unpack the files into a directory, and then run tipcoin-qt.exe.
 
 ### macOS
 
-Drag Monacoin Core to your applications folder, and then run Monacoin Core.
+Drag Tipcoin Core to your applications folder, and then run Tipcoin Core.
 
 ### Need Help?
 
-* See the documentation at the [Monacoin Wiki](https://monacoin.info/)
+* See the documentation at the [Tipcoin Wiki](https://monacoin.info/)
 for help and more information.
 * Ask for help on [#monacoin](http://webchat.freenode.net?channels=monacoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=monacoin).
 * Ask for help on the [MonacoinTalk](https://monacointalk.io/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Monacoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Tipcoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
@@ -47,7 +47,7 @@ The following are developer notes on how to build Monacoin Core on your native p
 
 Development
 ---------------------
-The Monacoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Tipcoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
@@ -63,7 +63,7 @@ The Monacoin repo's [root README](/README.md) contains relevant information on t
 
 ### Resources
 * Discuss on the [MonacoinTalk](https://monacointalk.io/) forums.
-* Discuss general Monacoin development on #monacoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=monacoin-dev).
+* Discuss general Tipcoin development on #monacoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=monacoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

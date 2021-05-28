@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Monacoin"
-            VALUE "FileDescription",    "tipcoin-tx (CLI Monacoin transaction editor utility)"
+            VALUE "CompanyName",        "Tipcoin"
+            VALUE "FileDescription",    "tipcoin-tx (CLI Tipcoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "tipcoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

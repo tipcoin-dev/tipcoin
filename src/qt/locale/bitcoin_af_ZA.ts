@@ -62,12 +62,12 @@
         <translation>Ontvang adresse</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit is jou Monacoin-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat u munte stuur.</translation>
+        <source>These are your Tipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit is jou Tipcoin-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat u munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit is jou Monacoin-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat jy munte stuur.</translation>
+        <source>These are your Tipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit is jou Tipcoin-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat jy munte stuur.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -330,8 +330,8 @@
         <translation>Klik om netwerk aktiwiteit weer aan te skakel.</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
-        <translation>Stuur muntstukke na 'n Monacoin adres</translation>
+        <source>Send coins to a Tipcoin address</source>
+        <translation>Stuur muntstukke na 'n Tipcoin adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -350,8 +350,8 @@
         <translation>&amp;Verifieer boodskap...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -378,12 +378,12 @@
         <translation>Versleutel die private sleutels wat aan u beursie behoort</translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
-        <translation>Teken boodskappe met u Monacoin adresse om te bewys dat u hul besit</translation>
+        <source>Sign messages with your Tipcoin addresses to prove you own them</source>
+        <translation>Teken boodskappe met u Tipcoin adresse om te bewys dat u hul besit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
-        <translation>Bevestig boodskappe om te verseker dat hulle geteken was met gespesifiseerde Monacoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
+        <translation>Bevestig boodskappe om te verseker dat hulle geteken was met gespesifiseerde Tipcoin adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -713,8 +713,8 @@
         <translation>Welkom by %1.</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>

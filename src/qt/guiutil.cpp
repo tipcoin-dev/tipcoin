@@ -112,7 +112,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
     widget->setFont(fixedPitchFont());
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a Monacoin address (e.g. %1)").arg(
+    widget->setPlaceholderText(QObject::tr("Enter a Tipcoin address (e.g. %1)").arg(
         QString::fromStdString(DummyAddress(Params()))));
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -669,9 +669,9 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)
-            optionFile << "Name=Monacoin\n";
+            optionFile << "Name=Tipcoin\n";
         else
-            optionFile << strprintf("Name=Monacoin (%s)\n", chain);
+            optionFile << strprintf("Name=Tipcoin (%s)\n", chain);
         optionFile << "Exec=" << pszExePath << strprintf(" -min -testnet=%d -regtest=%d\n", gArgs.GetBoolArg("-testnet", false), gArgs.GetBoolArg("-regtest", false));
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

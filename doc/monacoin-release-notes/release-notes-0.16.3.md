@@ -1,4 +1,4 @@
-Monacoin Core version 0.16.3 is now available from:
+Tipcoin Core version 0.16.3 is now available from:
 
   <https://github.com/tipcoin-dev/tipcoin/releases>
 

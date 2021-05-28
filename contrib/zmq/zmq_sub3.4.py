@@ -6,7 +6,7 @@
 """
     ZMQ example using python3's asyncio
 
-    Monacoin should be started with the command line arguments:
+    Tipcoin should be started with the command line arguments:
         tipcoind -testnet -daemon \
                 -zmqpubrawtx=tcp://127.0.0.1:29420 \
                 -zmqpubrawblock=tcp://127.0.0.1:29420 \

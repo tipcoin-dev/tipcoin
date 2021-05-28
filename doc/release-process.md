@@ -39,7 +39,7 @@ Check out the source code in the following directory hierarchy.
     git clone https://github.com/devrandom/gitian-builder.git
     git clone https://github.com/tipcoin-dev/tipcoin.git
 
-### Monacoin maintainers/release engineers, suggestion for writing release notes
+### Tipcoin maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -111,7 +111,7 @@ NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from 
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Monacoin Core for Linux, Windows, and macOS:
+### Build and sign Tipcoin Core for Linux, Windows, and macOS:
 
     export GITIAN_THREADS=2
     export GITIAN_MEMORY=3000
@@ -277,7 +277,7 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Update title of #monacoin and #monacoin-dev on Freenode IRC
 
-  - Optionally twitter, reddit /r/Monacoin, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/Tipcoin, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 

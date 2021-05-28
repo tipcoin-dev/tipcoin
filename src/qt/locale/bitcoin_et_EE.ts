@@ -130,8 +130,8 @@
         <translation>Kõvakettal olevate plokkide reindekseerimine...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -265,8 +265,8 @@
         <translation>Tere tulemast</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -760,8 +760,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Monacoin Core</source>
-        <translation>Monacoin Core</translation>
+        <source>Tipcoin Core</source>
+        <translation>Tipcoin Core</translation>
     </message>
     <message>
         <source>Information</source>

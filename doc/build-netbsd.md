@@ -30,7 +30,7 @@ git clone https://github.com/tipcoin-dev/tipcoin
 
 See [dependencies.md](dependencies.md) for a complete overview.
 
-### Building Monacoin Core
+### Building Tipcoin Core
 
 **Important**: Use `gmake` (the non-GNU `make` will exit with an error).
 

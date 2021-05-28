@@ -62,11 +62,11 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Monacoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your Tipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u Tipcoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Tipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Hierdie is die adresse waar u Tipcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
@@ -334,8 +334,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
-        <translation>Stuur munte na 'n Monacoin adres</translation>
+        <source>Send coins to a Tipcoin address</source>
+        <translation>Stuur munte na 'n Tipcoin adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Verifieer boodskap...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -386,12 +386,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Monacoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your Tipcoin addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u Tipcoin adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Monacoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Tipcoin adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -516,8 +516,8 @@
         <translation>Inkomende transaksie</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Monacoin can no longer continue safely and will quit.</source>
-        <translation>'N fatale fout het voorgekom. Monacoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
+        <source>A fatal error occurred. Tipcoin can no longer continue safely and will quit.</source>
+        <translation>'N fatale fout het voorgekom. Tipcoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
     </message>
 </context>
 <context>
@@ -706,8 +706,8 @@
         <translation>Wysig stuur adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Monacoin address.</source>
-        <translation>Die ingevoerde adres "%1" is nie 'n geldige Monacoin adres nie.</translation>
+        <source>The entered address "%1" is not a valid Tipcoin address.</source>
+        <translation>Die ingevoerde adres "%1" is nie 'n geldige Tipcoin adres nie.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -779,8 +779,8 @@
         <translation>Gebruik 'n persoonlike data gids:</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1144,8 +1144,8 @@
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Monacoin address (e.g. %1)</source>
-        <translation>Voer in 'n Monacoin adres (bv. %1)</translation>
+        <source>Enter a Tipcoin address (e.g. %1)</source>
+        <translation>Voer in 'n Tipcoin adres (bv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1878,8 +1878,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Monacoin Core</source>
-        <translation>Monacoin Kern</translation>
+        <source>Tipcoin Core</source>
+        <translation>Tipcoin Kern</translation>
     </message>
     <message>
         <source>Error loading %s</source>

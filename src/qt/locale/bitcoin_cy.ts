@@ -62,12 +62,12 @@
         <translation>Derbyn cyfeiriadau</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Rhain ydi eich cyfeiriadau Monacoin ar gyfer gyrru taliadau. Gwnewch yn sicr o'r swm a'r cyfeiriad derbyn cyn gyrru arian.</translation>
+        <source>These are your Tipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Rhain ydi eich cyfeiriadau Tipcoin ar gyfer gyrru taliadau. Gwnewch yn sicr o'r swm a'r cyfeiriad derbyn cyn gyrru arian.</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dyma eich cyfeiriadau Monacoin ar gyfer derbyn taliadau. Argymhellwn ddefnyddio cyfeiriad derbyn newydd ar gyfer bob trafodyn.</translation>
+        <source>These are your Tipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dyma eich cyfeiriadau Tipcoin ar gyfer derbyn taliadau. Argymhellwn ddefnyddio cyfeiriad derbyn newydd ar gyfer bob trafodyn.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -334,8 +334,8 @@
         <translation>Ailfynegi y blociau ar ddisg...</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
-        <translation>Anfon arian i gyfeiriad Monacoin</translation>
+        <source>Send coins to a Tipcoin address</source>
+        <translation>Anfon arian i gyfeiriad Tipcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -354,8 +354,8 @@
         <translation>&amp;Gwirio neges...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -382,12 +382,12 @@
         <translation>Amgryptio'r allweddi preifat sy'n perthyn i'ch waled</translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
-        <translation>Arwyddo negeseuon gyda eich cyfeiriadau Monacoin i brofi mae chi sy'n berchen arnynt</translation>
+        <source>Sign messages with your Tipcoin addresses to prove you own them</source>
+        <translation>Arwyddo negeseuon gyda eich cyfeiriadau Tipcoin i brofi mae chi sy'n berchen arnynt</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
-        <translation>Gwirio negeseuon i sicrhau eu bod wedi eu harwyddo gyda cyfeiriadau Monacoin penodol</translation>
+        <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
+        <translation>Gwirio negeseuon i sicrhau eu bod wedi eu harwyddo gyda cyfeiriadau Tipcoin penodol</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -419,7 +419,7 @@
     </message>
     <message>
         <source>Open a monacoin: URI or payment request</source>
-        <translation>Agor Monacoin: URI neu ofyn taliad</translation>
+        <translation>Agor Tipcoin: URI neu ofyn taliad</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -524,8 +524,8 @@
         <translation>Mae'r waled &lt;b&gt;wedi'i amgryptio&lt;/b&gt; ac &lt;b&gt;ar glo&lt;/b&gt; ar hyn o bryd</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Monacoin can no longer continue safely and will quit.</source>
-        <translation>Mae gwall angheuol wedi digwydd. Ni all Monacoin barhau'n ddiogel ac mae'n cau lawr.</translation>
+        <source>A fatal error occurred. Tipcoin can no longer continue safely and will quit.</source>
+        <translation>Mae gwall angheuol wedi digwydd. Ni all Tipcoin barhau'n ddiogel ac mae'n cau lawr.</translation>
     </message>
 </context>
 <context>
@@ -631,8 +631,8 @@
         <translation>Croeso</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1038,8 +1038,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Monacoin Core</source>
-        <translation>Craidd Monacoin</translation>
+        <source>Tipcoin Core</source>
+        <translation>Craidd Tipcoin</translation>
     </message>
     <message>
         <source>Information</source>

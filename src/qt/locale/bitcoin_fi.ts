@@ -66,12 +66,12 @@
         <translation>Vastaanotto-osoitteet</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat Monacoin-osoitteesi maksujen lähettämistä varten. Tarkista aina määrä ja vastaanotto-osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your Tipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat Tipcoin-osoitteesi maksujen lähettämistä varten. Tarkista aina määrä ja vastaanotto-osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your Monacoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tässä ovat Monacoin vastaanotto-osoitteesi. On suositeltavaa käyttää uutta vastaanotto-osoitetta jokaista lähetystä varten.</translation>
+        <source>These are your Tipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tässä ovat Tipcoin vastaanotto-osoitteesi. On suositeltavaa käyttää uutta vastaanotto-osoitetta jokaista lähetystä varten.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -358,8 +358,8 @@
         <translation>Välipalvelin on &lt;b&gt;käytössä&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Monacoin address</source>
-        <translation>Lähetä kolikoita Monacoin-osoitteeseen</translation>
+        <source>Send coins to a Tipcoin address</source>
+        <translation>Lähetä kolikoita Tipcoin-osoitteeseen</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -382,8 +382,8 @@
         <translation>Varmista &amp;viesti...</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -403,19 +403,19 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota Monacoin-ikkuna</translation>
+        <translation>Näytä tai piilota Tipcoin-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Suojaa yksityiset avaimet, jotka kuuluvat lompakkoosi</translation>
     </message>
     <message>
-        <source>Sign messages with your Monacoin addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla Monacoin -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your Tipcoin addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla Tipcoin -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Monacoin addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Monacoin -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Tipcoin -osoitteella</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -454,8 +454,8 @@
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Monacoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys Monacoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Monacoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to Tipcoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys Tipcoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Tipcoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -498,7 +498,7 @@
         <translation>Rahansiirtohistoria on ajan tasalla</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Monacoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Tipcoin command-line options</source>
         <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista Monacoinin komentorivivalinnoista</translation>
     </message>
     <message>
@@ -568,8 +568,8 @@
         <translation>Lompakko on &lt;b&gt;salattu&lt;/b&gt; ja tällä hetkellä &lt;b&gt;lukittuna&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Monacoin can no longer continue safely and will quit.</source>
-        <translation>Peruuttamaton virhe on tapahtunut. Monacoin ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
+        <source>A fatal error occurred. Tipcoin can no longer continue safely and will quit.</source>
+        <translation>Peruuttamaton virhe on tapahtunut. Tipcoin ei voi enää jatkaa turvallisesti ja sammutetaan.</translation>
     </message>
 </context>
 <context>
@@ -758,8 +758,8 @@
         <translation>Muokkaa lähettävää osoitetta</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Monacoin address.</source>
-        <translation>Antamasi osoite "%1" ei ole kelvollinen Monacoin-osoite.</translation>
+        <source>The entered address "%1" is not a valid Tipcoin address.</source>
+        <translation>Antamasi osoite "%1" ei ole kelvollinen Tipcoin-osoite.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -847,8 +847,8 @@
         <translation>Määritä oma kansio:</translation>
     </message>
     <message>
-        <source>Monacoin</source>
-        <translation>Monacoin</translation>
+        <source>Tipcoin</source>
+        <translation>Tipcoin</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -859,7 +859,7 @@
         <translation>Noin %1 GB tietoa varastoidaan tähän hakemistoon.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Monacoin block chain.</source>
+        <source>%1 will download and store a copy of the Tipcoin block chain.</source>
         <translation>%1 lataa ja tallentaa kopion Monacoinin lohkoketjusta.</translation>
     </message>
     <message>
@@ -1052,8 +1052,8 @@
         <translation>&amp;Käytä varmistamattomia vaihtorahoja</translation>
     </message>
     <message>
-        <source>Automatically open the Monacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Monacoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Tipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa Tipcoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1068,8 +1068,8 @@
         <translation>Hyväksy sisääntulevia yhteyksiä</translation>
     </message>
     <message>
-        <source>Connect to the Monacoin network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Monacoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
+        <source>Connect to the Tipcoin network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Tipcoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1104,8 +1104,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Monacoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Yhdistä Monacoin-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
+        <source>Connect to the Tipcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Yhdistä Tipcoin-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1211,8 +1211,8 @@
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Monacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Monacoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tipcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Tipcoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1302,8 +1302,8 @@
         <translation>Virheellinen maksuosoite %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Monacoin address or malformed URI parameters.</source>
-        <translation>URIa ei voitu jäsentää! Tämä voi johtua virheellisestä Monacoin-osoitteesta tai väärin muotoilluista URI parametreista.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Tipcoin address or malformed URI parameters.</source>
+        <translation>URIa ei voitu jäsentää! Tämä voi johtua virheellisestä Tipcoin-osoitteesta tai väärin muotoilluista URI parametreista.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1404,8 +1404,8 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a Monacoin address (e.g. %1)</source>
-        <translation>Syötä Monacoin-osoite (esim. %1)</translation>
+        <source>Enter a Tipcoin address (e.g. %1)</source>
+        <translation>Syötä Tipcoin-osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1800,8 +1800,8 @@
         <translation>&amp;Viesti:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Monacoin network.</source>
-        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Monacoin-verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Tipcoin network.</source>
+        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Tipcoin-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2185,8 +2185,8 @@
         <translation>Maksa vain vaadittu kulu %1 </translation>
     </message>
     <message>
-        <source>Warning: Invalid Monacoin address</source>
-        <translation>Varoitus: Virheellinen Monacoin-osoite </translation>
+        <source>Warning: Invalid Tipcoin address</source>
+        <translation>Varoitus: Virheellinen Tipcoin-osoite </translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2228,8 +2228,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Monacoin address to send the payment to</source>
-        <translation>Monacoin-osoite johon maksu lähetetään</translation>
+        <source>The Tipcoin address to send the payment to</source>
+        <translation>Tipcoin-osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2276,8 +2276,8 @@
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Monacoin network.</source>
-        <translation>Viesti joka liitettiin monacoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Monacoin-verkkoon.</translation>
+        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
+        <translation>Viesti joka liitettiin monacoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Tipcoin-verkkoon.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2325,8 +2325,8 @@
         <translation>Voit allekirjoittaa viestit / sopimukset omalla osoitteellasi todistaaksesi että voit vastaanottaa siihen lähetetyt monacoinit. Varo allekirjoittamasta mitään epämääräistä, sillä phishing-hyökkääjät voivat huijata sinua luovuttamaan henkilöllisyytesi allekirjoituksella. Allekirjoita ainoastaan täysin yksityiskohtainen selvitys siitä, mihin olet sitoutumassa.</translation>
     </message>
     <message>
-        <source>The Monacoin address to sign the message with</source>
-        <translation>Monacoin-osoite jolla viesti allekirjoitetaan</translation>
+        <source>The Tipcoin address to sign the message with</source>
+        <translation>Tipcoin-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2357,8 +2357,8 @@
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Monacoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Monacoin-osoitteen</translation>
+        <source>Sign the message to prove you own this Tipcoin address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Tipcoin-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2381,12 +2381,12 @@
         <translation>Syötä vastaanottajan osoite, viesti ja allekirjoitus (varmista että kopioit rivinvaihdot, välilyönnit, sarkaimet yms. täsmälleen) alle vahvistaaksesi viestin. Varo lukemasta allekirjoitukseen enempää kuin mitä viestissä itsessään on välttääksesi man-in-the-middle -hyökkäyksiltä. Huomaa, että tämä todentaa ainoastaan allekirjoittavan vastaanottajan osoitteen, tämä ei voi todentaa minkään tapahtuman lähettäjää!</translation>
     </message>
     <message>
-        <source>The Monacoin address the message was signed with</source>
-        <translation>Monacoin-osoite jolla viesti on allekirjoitettu</translation>
+        <source>The Tipcoin address the message was signed with</source>
+        <translation>Tipcoin-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Monacoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Monacoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Tipcoin address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Tipcoin-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3006,8 +3006,8 @@
         <translation>HTTP-palvelinta ei voitu käynnistää. Katso debug-lokista lisätietoja.</translation>
     </message>
     <message>
-        <source>Monacoin Core</source>
-        <translation>Monacoin-ydin</translation>
+        <source>Tipcoin Core</source>
+        <translation>Tipcoin-ydin</translation>
     </message>
     <message>
         <source>The %s developers</source>

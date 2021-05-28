@@ -27,7 +27,7 @@ Download the source code:
 git clone https://github.com/tipcoin-dev/tipcoin
 ```
 
-## Building Monacoin Core
+## Building Tipcoin Core
 
 **Important**: Use `gmake` (the non-GNU `make` will exit with an error).
 
