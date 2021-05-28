@@ -1095,7 +1095,7 @@ bool ReadBlockFromDisk(CBlock& block, const CDiskBlockPos& pos, int nHeight, con
     }
 
     // Check the header
-    if (!CheckProofOfWork(block.GetPoWHash(nHeight >= Params().SwitchLyra2REv2_DGWblock()), block.nBits, consensusParams))
+    if (!CheckProofOfWork(block.GetPoWHash(nHeight >= Params().SwitchLyra2REv3_DGWblock()), block.nBits, consensusParams))
         return error("ReadBlockFromDisk: Errors in block header at %s", pos.ToString());
 
     return true;
@@ -3069,7 +3069,7 @@ static bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state,
     }
 
     // Check proof of work matches claimed amount
-    if (fCheckPOW && !CheckProofOfWork(block.GetPoWHash(nHeight >= Params().SwitchLyra2REv2_DGWblock()), block.nBits, consensusParams))
+    if (fCheckPOW && !CheckProofOfWork(block.GetPoWHash(nHeight >= Params().SwitchLyra2REv3_DGWblock()), block.nBits, consensusParams))
         return state.DoS(50, false, REJECT_INVALID, "high-hash", false, "proof of work failed");
 
     return true;
@@ -3301,14 +3301,16 @@ static bool ContextualCheckBlock(const CBlock& block, CValidationState& state, c
 
     // Enforce rule that the coinbase starts with serialized block height
     // TODO-TIP: uncomment
-    // if (nHeight >= consensusParams.BIP34Height)
-    // {
-    //     CScript expect = CScript() << nHeight;
-    //     if (block.vtx[0]->vin[0].scriptSig.size() < expect.size() ||
-    //         !std::equal(expect.begin(), expect.end(), block.vtx[0]->vin[0].scriptSig.begin())) {
-    //         return state.DoS(100, false, REJECT_INVALID, "bad-cb-height", false, "block height mismatch in coinbase");
-    //     }
-    // }
+    // This rule is not applied to the genesis block, which didn't include the height in the coinbase.
+    // if (nHeight > 0)
+    if (nHeight >= consensusParams.BIP34Height)
+    {
+        CScript expect = CScript() << nHeight;
+        if (block.vtx[0]->vin[0].scriptSig.size() < expect.size() ||
+            !std::equal(expect.begin(), expect.end(), block.vtx[0]->vin[0].scriptSig.begin())) {
+            return state.DoS(100, false, REJECT_INVALID, "bad-cb-height", false, "block height mismatch in coinbase");
+        }
+    }
 
     // Validation for witness commitments.
     // * We compute the witness hash (which is the hash including witnesses) of all the block's transactions, except the

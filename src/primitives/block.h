@@ -64,7 +64,7 @@ public:
 
     uint256 GetHash() const;
 
-    uint256 GetPoWHash(bool bLyra2REv2 = false) const;
+    uint256 GetPoWHash(bool bLyra2REv3 = false) const;
 
     int64_t GetBlockTime() const
     {

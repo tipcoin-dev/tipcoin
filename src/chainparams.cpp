@@ -75,11 +75,11 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 1051200;
-        consensus.BIP16Height = 1;
-        consensus.BIP34Height = 1;
-        consensus.BIP34Hash = uint256();
-        consensus.BIP65Height = 1;
-        consensus.BIP66Height = 1;
+        consensus.BIP16Height = 0;
+        consensus.BIP34Height = 17;
+        consensus.BIP34Hash = uint256S("");
+        consensus.BIP65Height = 0;
+        consensus.BIP66Height = 0;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
         consensus.nPowTargetTimespan = 1.1 * 24 * 60 * 60; // 1.1 days
         consensus.nPowTargetSpacing = 1.5 * 60; // 1.5 minutes
@@ -103,7 +103,9 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = Consensus::BIP9Deployment::NO_TIMEOUT;
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00");
+        // getblockhash 0
+        // getblock hash | grep "chainwork"
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000100010");
 
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x8a033facdc5447307905b68a49f9aae300ca98fe0fd3d31be6c71e165dd9502b"); // 0
@@ -111,7 +113,7 @@ public:
         // Hardfork params
         nSwitchKGWblock = 2;
         nSwitchDIGIblock = 4;
-        nSwitchLyra2REv2_DGW = 6;
+        nSwitchLyra2REv3_DGW = 6;
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -139,9 +141,9 @@ public:
         // release ASAP to avoid it where possible.
         // vSeeds.emplace_back("dnsseed.tipcoin.us");
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,66);  // T
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,43);  // J
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
-        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,43);  // J
+        base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,66);  // T
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,176);
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
@@ -182,11 +184,11 @@ public:
     CTestNetParams() {
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 1051200;
-        consensus.BIP16Height = 1; // always enforce P2SH BIP16 on regtest
-        consensus.BIP34Height = 1;
-        consensus.BIP34Hash = uint256S("ce3908e168b8a0f5e6902570c1a38e436f2207ae2d7c8369fff781a8801127b2");
-        consensus.BIP65Height = 1;
-        consensus.BIP66Height = 1;
+        consensus.BIP16Height = 0;
+        consensus.BIP34Height = 17;
+        consensus.BIP34Hash = uint256S("");
+        consensus.BIP65Height = 0;
+        consensus.BIP66Height = 0;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 1.1 * 24 * 60 * 60; // 1.1 days
         consensus.nPowTargetSpacing = 1.5 * 60; // 1.5 minutes
@@ -222,7 +224,7 @@ public:
         // Hardfork params
         nSwitchKGWblock = 2;
         nSwitchDIGIblock = 4;
-        nSwitchLyra2REv2_DGW = 6;
+        nSwitchLyra2REv3_DGW = 6;
 
         nDefaultPort = 19469;
         nPruneAfterHeight = 1000;
@@ -314,7 +316,7 @@ public:
         // Hardfork params
         nSwitchKGWblock = 2;
         nSwitchDIGIblock = 4;
-        nSwitchLyra2REv2_DGW = 6;
+        nSwitchLyra2REv3_DGW = 6;
 
         pchMessageStart[0] = 0xfa;
         pchMessageStart[1] = 0xbf;

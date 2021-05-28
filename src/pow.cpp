@@ -90,11 +90,11 @@ unsigned int static DarkGravityWave(const CBlockIndex* pindexLast, const CBlockH
     CBigNum PastDifficultyAverage;
     CBigNum PastDifficultyAveragePrev;
 
-    if (BlockLastSolved == NULL || BlockLastSolved->nHeight < Params().SwitchLyra2REv2_DGWblock() + PastBlocksMin) {
+    if (BlockLastSolved == NULL || BlockLastSolved->nHeight < Params().SwitchLyra2REv3_DGWblock() + PastBlocksMin) {
         return UintToArith256(params.powLimit).GetCompact();
     }
 
-    for (unsigned int i = 1; BlockReading && BlockReading->nHeight >= Params().SwitchLyra2REv2_DGWblock(); i++) {
+    for (unsigned int i = 1; BlockReading && BlockReading->nHeight >= Params().SwitchLyra2REv3_DGWblock(); i++) {
         if (PastBlocksMax > 0 && i > PastBlocksMax) { break; }
         CountBlocks++;
 
@@ -163,7 +163,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     if (params.fPowNoRetargeting)
         return pindexLast->nBits;
 
-    if(pindexLast->nHeight+1 >= Params().SwitchLyra2REv2_DGWblock())
+    if(pindexLast->nHeight+1 >= Params().SwitchLyra2REv3_DGWblock())
     {
         // DGWv3
         return DarkGravityWave(pindexLast, pblock, params);
