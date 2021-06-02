@@ -77,7 +77,7 @@ public:
         consensus.nSubsidyHalvingInterval = 1051200;
         consensus.BIP16Height = 0;
         consensus.BIP34Height = 17;
-        consensus.BIP34Hash = uint256S("");
+        consensus.BIP34Hash = uint256S("0xdc5b64ba66beb78636f5af8a8843a3d4def99ec86334097cc05dde042dc31df7");
         consensus.BIP65Height = 0;
         consensus.BIP66Height = 0;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
@@ -103,12 +103,12 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = Consensus::BIP9Deployment::NO_TIMEOUT;
 
         // The best chain should have at least this much work.
-        // getblockhash 0
+        // getblockhash 4424
         // getblock hash | grep "chainwork"
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000000100010");
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000019118c5f105");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x8a033facdc5447307905b68a49f9aae300ca98fe0fd3d31be6c71e165dd9502b"); // 0
+        consensus.defaultAssumeValid = uint256S("0xf7dcd2355ac4d6e6633ae19ff4775c1f363f9633d691513fbdfb4935ce80e86d"); // 4424
 
         // Hardfork params
         nSwitchKGWblock = 2;
@@ -160,15 +160,16 @@ public:
         checkpointData = {
             {
                 {    0, uint256S("0x8a033facdc5447307905b68a49f9aae300ca98fe0fd3d31be6c71e165dd9502b") },
+                {    4424, uint256S("0xf7dcd2355ac4d6e6633ae19ff4775c1f363f9633d691513fbdfb4935ce80e86d") },
             }
         };
 
         chainTxData = ChainTxData{
-            // Data as of block 99274770cb96287f9f105f6dd5512795ee87ec68ddd06699f90c0d574a07aa4c (height 1639000).
-            0, // * UNIX timestamp of last known number of transactions
-            0,    // * total number of transactions between genesis and that timestamp
+            // Data from RPC: getchaintxstats 4096 f7dcd2355ac4d6e6633ae19ff4775c1f363f9633d691513fbdfb4935ce80e86d (4420)
+            1622670437, // * UNIX timestamp of last known number of transactions
+            5121,    // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            0.00      // * estimated number of transactions per second after that timestamp
+            0.01226050079628726      // * estimated number of transactions per second after that timestamp
         };
 
         /* disable fallback fee on mainnet */
