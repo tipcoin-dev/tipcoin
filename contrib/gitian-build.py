@@ -55,9 +55,9 @@ def build():
     print('\nBuilding Dependencies\n')
     os.chdir('gitian-builder')
     os.makedirs('inputs', exist_ok=True)
-
-    subprocess.check_call(['wget', '-N', '-P', 'inputs', 'https://github.com/mraksoll4/osslsigncode-1.7.1.tar.gz-1/raw/master/osslsigncode-1.7.1.tar.gz'])
-    subprocess.check_call(['wget', '-N', '-P', 'inputs', 'https://raw.githubusercontent.com/mraksoll4/osslsigncode-1.7.1.tar.gz-1/master/osslsigncode-Backports-to-1.7.1.patch'])
+    
+    subprocess.check_call(['wget', '-O', 'inputs/osslsigncode-2.0.tar.gz', 'https://github.com/mtrojnar/osslsigncode/archive/2.0.tar.gz'])
+    subprocess.check_call(["echo '5a60e0a4b3e0b4d655317b2f12a810211c50242138322b16e7e01c6fbb89d92f inputs/osslsigncode-2.0.tar.gz' | sha256sum -c"], shell=True)
     subprocess.check_call(['make', '-C', '../tipcoin/depends', 'download', 'SOURCES_PATH=' + os.getcwd() + '/cache/common'])
 
     if args.linux:
