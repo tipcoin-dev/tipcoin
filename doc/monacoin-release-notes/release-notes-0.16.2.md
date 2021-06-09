@@ -147,9 +147,9 @@ This checkpoint disappears when moancoind shutdown.
 
 ### Checkpoint distribution
 
-Monacoinproject plans checkpoint distribution.
+Tipcoinproject plans checkpoint distribution.
 To deny checkpoint, use the argument `-cmdcheckpoint=false` with tipcoind or tipcoin-qt or add `cmdcheckpoint=false` to your tipcoin.conf. 
-It is a function provided for the purpose of invalidating 51% attack on monacoin, but it is not mandatory.
+It is a function provided for the purpose of invalidating 51% attack on tipcoin, but it is not mandatory.
 
 ### Safe mode disabled by default
 

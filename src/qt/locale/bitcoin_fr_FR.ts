@@ -422,8 +422,8 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Demander des paiements (générer QR codes et monacoin: URIs)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Demander des paiements (générer QR codes et tipcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -434,8 +434,8 @@
         <translation>Afficher la liste des labels et adresses de réception utilisées</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Ouvrir un monacoin: URI ou demande de paiement</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Ouvrir un tipcoin: URI ou demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

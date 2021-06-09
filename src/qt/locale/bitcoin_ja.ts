@@ -434,8 +434,8 @@
         <translation>タブツールバー</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>支払いを要求する (QRコードとmonacoin:ではじまるURIを生成する)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>支払いを要求する (QRコードとtipcoin:ではじまるURIを生成する)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -446,8 +446,8 @@
         <translation>支払いを受け取るアドレスとラベルのリストを表示する</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>monacoin: URIまたは支払いリクエストを開く</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>tipcoin: URIまたは支払いリクエストを開く</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -874,7 +874,7 @@
     </message>
     <message>
         <source>%1 will download and store a copy of the Tipcoin block chain.</source>
-        <translation>%1はMonacoinのブロックチェーンの複製をダウンロードし保存します。</translation>
+        <translation>%1はTipcoinのブロックチェーンの複製をダウンロードし保存します。</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -904,7 +904,7 @@
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the tipcoin network, as detailed below.</source>
         <translation>確認できない最近のトランザクションがあるかもしれません。これによりウォレットの残高は不正確なものである可能性があります。この情報はウォレットが一度 Tipcoin ネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
     </message>
     <message>
@@ -1111,7 +1111,7 @@
     </message>
     <message>
         <source>Connect to the Tipcoin network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 プロキシ経由でMonacoinネットワークに接続する</translation>
+        <translation>SOCKS5 プロキシ経由でTipcoinネットワークに接続する</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1147,7 +1147,7 @@
     </message>
     <message>
         <source>Connect to the Tipcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Tor秘匿サービスを利用するため、独立なSOCKS5プロキシ経由でMonacoinネットワークに接続する</translation>
+        <translation>Tor秘匿サービスを利用するため、独立なSOCKS5プロキシ経由でTipcoinネットワークに接続する</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1328,7 +1328,7 @@
         <translation>支払いのリクエストのエラーです</translation>
     </message>
     <message>
-        <source>Cannot start monacoin: click-to-pay handler</source>
+        <source>Cannot start tipcoin: click-to-pay handler</source>
         <translation>Tipcoin を起動できません: click-to-pay handler</translation>
     </message>
     <message>
@@ -1336,8 +1336,8 @@
         <translation>URI の操作</translation>
     </message>
     <message>
-        <source>'monacoin://' is not a valid URI. Use 'monacoin:' instead.</source>
-        <translation>'monacoin://' は正しいURIではありません｡ 'monacoin:'を利用してください｡</translation>
+        <source>'tipcoin://' is not a valid URI. Use 'tipcoin:' instead.</source>
+        <translation>'tipcoin://' は正しいURIではありません｡ 'tipcoin:'を利用してください｡</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1451,7 +1451,7 @@
     </message>
     <message>
         <source>Enter a Tipcoin address (e.g. %1)</source>
-        <translation>Monacoinアドレスを入力してください (例 %1)</translation>
+        <translation>Tipcoinアドレスを入力してください (例 %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1899,7 +1899,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Tipcoin network.</source>
-        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはMonacoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
+        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはTipcoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2151,8 +2151,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>隠す</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for monacoin transactions than the network can process.</source>
-        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどmonacoinトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for tipcoin transactions than the network can process.</source>
+        <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどtipcoinトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2332,7 +2332,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>Warning: Invalid Tipcoin address</source>
-        <translation>警告：無効なMonacoinアドレスです</translation>
+        <translation>警告：無効なTipcoinアドレスです</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2375,7 +2375,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>The Tipcoin address to send the payment to</source>
-        <translation>支払の送金先Monacoinアドレス</translation>
+        <translation>支払の送金先Tipcoinアドレス</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2422,8 +2422,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>このアドレスに対するラベルを入力することで、使用済みアドレスの一覧に追加することができます</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
-        <translation>monacoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはMonacoinネットワークを通して送信されるわけではありません。</translation>
+        <source>A message that was attached to the tipcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
+        <translation>tipcoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはTipcoinネットワークを通して送信されるわけではありません。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2472,7 +2472,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>The Tipcoin address to sign the message with</source>
-        <translation>メッセージを署名するMonacoinアドレス</translation>
+        <translation>メッセージを署名するTipcoinアドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2528,7 +2528,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>The Tipcoin address the message was signed with</source>
-        <translation>メッセージの署名に使われたMonacoinアドレス</translation>
+        <translation>メッセージの署名に使われたTipcoinアドレス</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Tipcoin address</source>

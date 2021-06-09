@@ -181,7 +181,7 @@
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tipcoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 će se ugasiti da bi dovršio proces enkriptovanja. Imajte u vidu da enkripcija novčanika ne garantuje potpunu zaštitu monacoina od krađe od strane nekog virusa koji bi zarazio vaš kompjuter.</translation>
+        <translation>%1 će se ugasiti da bi dovršio proces enkriptovanja. Imajte u vidu da enkripcija novčanika ne garantuje potpunu zaštitu tipcoina od krađe od strane nekog virusa koji bi zarazio vaš kompjuter.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -414,8 +414,8 @@
         <translation>Alatke za tabove</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Zatražite plaćanje (generiše QR kodove i monacoin: URI-e)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Zatražite plaćanje (generiše QR kodove i tipcoin: URI-e)</translation>
     </message>
     <message>
         <source>Error</source>

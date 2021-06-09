@@ -374,8 +374,8 @@
         <translation>Дапамога</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Запатрабаваць плацёж (генеруецца QR-код для monacoin URI)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Запатрабаваць плацёж (генеруецца QR-код для tipcoin URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -386,8 +386,8 @@
         <translation>Паказаць спіс адрасоў і метак для прымання</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Адкрыць monacoin: URI ці запыт плацяжу</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Адкрыць tipcoin: URI ці запыт плацяжу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

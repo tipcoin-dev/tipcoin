@@ -14,7 +14,7 @@ Compatibility
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support),
 an OS initially released in 2001. This means that not even critical security
-updates will be released anymore. Without security updates, using a monacoin
+updates will be released anymore. Without security updates, using a tipcoin
 wallet on a XP machine is irresponsible at least.
 
 In addition to that, with 0.12.x there have been varied reports of Bitcoin Core
@@ -201,7 +201,7 @@ information, pass `-debug=tor`.
 Notifications through ZMQ
 -------------------------
 
-Monacoind can now (optionally) asynchronously notify clients through a
+Tipcoind can now (optionally) asynchronously notify clients through a
 ZMQ-based PUB socket of the arrival of new transactions and blocks.
 This feature requires installation of the ZMQ C API library 4.x and
 configuring its use through the command line or configuration file.
@@ -380,7 +380,7 @@ caching. A sample config for apache2 could look like:
     SSLCertificateFile /etc/apache2/ssl/server.crt
     SSLCertificateKeyFile /etc/apache2/ssl/server.key
 
-    <Location /monacoinrpc>
+    <Location /tipcoinrpc>
         ProxyPass http://127.0.0.1:9420/
         ProxyPassReverse http://127.0.0.1:9420/
         # optional enable digest auth
@@ -389,7 +389,7 @@ caching. A sample config for apache2 could look like:
 
         # optional bypass tipcoind rpc basic auth
         # RequestHeader set Authorization "Basic <hash>"
-        # get the <hash> from the shell with: base64 <<< monacoinrpc:<password>
+        # get the <hash> from the shell with: base64 <<< tipcoinrpc:<password>
     </Location>
 
     # Or, balance the load:
@@ -462,9 +462,9 @@ executables.
 
 The following extra files can be found in the download directory or torrent:
 
-- `monacoin-${VERSION}-arm-linux-gnueabihf.tar.gz`: Linux binaries for the most
+- `tipcoin-${VERSION}-arm-linux-gnueabihf.tar.gz`: Linux binaries for the most
   common 32-bit ARM architecture.
-- `monacoin-${VERSION}-aarch64-linux-gnu.tar.gz`: Linux binaries for the most
+- `tipcoin-${VERSION}-aarch64-linux-gnu.tar.gz`: Linux binaries for the most
   common 64-bit ARM architecture.
 
 ARM builds are still experimental. If you have problems on a certain device or
@@ -942,9 +942,9 @@ Additional detail on the ARM architecture targeted by each is provided below.
 
 The following extra files can be found in the download directory or torrent:
 
-- `monacoin-${VERSION}-arm-linux-gnueabihf.tar.gz`: Linux binaries targeting
+- `tipcoin-${VERSION}-arm-linux-gnueabihf.tar.gz`: Linux binaries targeting
   the 32-bit ARMv7-A architecture.
-- `monacoin-${VERSION}-aarch64-linux-gnu.tar.gz`: Linux binaries targeting
+- `tipcoin-${VERSION}-aarch64-linux-gnu.tar.gz`: Linux binaries targeting
   the 64-bit ARMv8-A architecture.
 
 ARM builds are still experimental. If you have problems on a certain device or

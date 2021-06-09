@@ -180,7 +180,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TIPCOINS&lt;/b&gt;!</source>
-        <translation>Amaran: Jika anda enkripkan dompet anda dan hilangkan frasa laluan, anda akan &lt;b&gt;ANDA AKAN HILANGKAN SEMUA MONACOIN ANDA&lt;/b&gt;!</translation>
+        <translation>Amaran: Jika anda enkripkan dompet anda dan hilangkan frasa laluan, anda akan &lt;b&gt;ANDA AKAN HILANGKAN SEMUA TIPCOIN ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -411,7 +411,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Sign messages with your Tipcoin addresses to prove you own them</source>
-        <translation>sahkan mesej bersama alamat monacoin anda untuk menunjukkan alamat ini anda punya</translation>
+        <translation>sahkan mesej bersama alamat tipcoin anda untuk menunjukkan alamat ini anda punya</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
@@ -435,8 +435,8 @@ Alihkan fail data ke dalam tab semasa</translation>
 </translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Request payments (generates QR codes and monacoin: URIs)
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Request payments (generates QR codes and tipcoin: URIs)
 </translation>
     </message>
     <message>

@@ -68,7 +68,7 @@ Notable changes
 The `listtransactions` RPC `account` parameter which was deprecated in 0.17.0
 and renamed to `dummy` has been un-deprecated and renamed again to `label`.
 
-When monacoin is configured with the `-deprecatedrpc=accounts` setting, specifying
+When tipcoin is configured with the `-deprecatedrpc=accounts` setting, specifying
 a label/account/dummy argument will return both outgoing and incoming
 transactions. Without the `-deprecatedrpc=accounts` setting, it will only return
 incoming transactions (because it used to be possible to create transactions
@@ -151,8 +151,8 @@ It is now possible for a single configuration file to set different
 options for different networks. This is done by using sections or by
 prefixing the option with the network, such as:
 
-    main.uacomment=monacoin
-    test.uacomment=monacoin-testnet
+    main.uacomment=tipcoin
+    test.uacomment=tipcoin-testnet
     regtest.uacomment=regtest
     [main]
     mempoolsize=300
@@ -313,9 +313,9 @@ Low-level RPC changes
    `fee`, `modifiedfee`, `ancestorfee` and `descendantfee`.
 - The new RPC `getzmqnotifications` returns information about active ZMQ
   notifications.
-- When monacoin is not started with any `-wallet=<path>` options, the name of
+- When tipcoin is not started with any `-wallet=<path>` options, the name of
   the default wallet returned by `getwalletinfo` and `listwallets` RPCs is
-  now the empty string `""` instead of `"wallet.dat"`. If monacoin is started
+  now the empty string `""` instead of `"wallet.dat"`. If tipcoin is started
   with any `-wallet=<path>` options, there is no change in behavior, and the
   name of any wallet is just its `<path>` string.
 - Passing an empty string (`""`) as the `address_type` parameter to

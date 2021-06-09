@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TIPCOINS&lt;/b&gt;!</source>
-        <translation>اخطار: اگر کیف‌پول خود را رمزگذاری کرده و رمز خود را فراموش کنید، شما &lt;b&gt;تمام Monacoin‌های خود را از دست خواهید داد&lt;/b&gt;!</translation>
+        <translation>اخطار: اگر کیف‌پول خود را رمزگذاری کرده و رمز خود را فراموش کنید، شما &lt;b&gt;تمام Tipcoin‌های خود را از دست خواهید داد&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -347,7 +347,7 @@
     </message>
     <message>
         <source>Send coins to a Tipcoin address</source>
-        <translation>ارسال کوین به آدرس monacoin</translation>
+        <translation>ارسال کوین به آدرس tipcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -367,7 +367,7 @@
     </message>
     <message>
         <source>Tipcoin</source>
-        <translation>monacoin</translation>
+        <translation>tipcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -418,7 +418,7 @@
         <translation>نوار ابزار</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
         <translation>درخواست پرداخت (ساخت کد QR و Tipcoin: URIs)</translation>
     </message>
     <message>
@@ -430,7 +430,7 @@
         <translation>نمایش لیست آدرس‌ها و لیبل‌های دریافتی استفاده شده</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
+        <source>Open a tipcoin: URI or payment request</source>
         <translation>بازکردن Tipcoin: آدرس یا درخواست پرداخت</translation>
     </message>
     <message numerus="yes">
@@ -629,7 +629,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Tipcoin address.</source>
-        <translation>آدرس وارد شده "%1" آدرس معتبر monacoin نیست.</translation>
+        <translation>آدرس وارد شده "%1" آدرس معتبر tipcoin نیست.</translation>
     </message>
     </context>
 <context>
@@ -658,7 +658,7 @@
     </message>
     <message>
         <source>Tipcoin</source>
-        <translation>monacoin</translation>
+        <translation>tipcoin</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -762,7 +762,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tipcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه monacoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
+        <translation>اطلاعات نمایش داده شده ممکن است روزآمد نباشد. wallet شما به صورت خودکار بعد از برقراری اتصال با شبکه tipcoin به روز می شود اما این فرایند هنوز تکمیل نشده است.</translation>
     </message>
     <message>
         <source>Available:</source>

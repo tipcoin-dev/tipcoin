@@ -34,7 +34,7 @@ If you're using the automated script (found in [contrib/gitian-build.py](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/monacoinproject/gitian.sigs.ltc.git
+    git clone https://github.com/tipcoin-dev/gitian.sigs.tip.git
     git clone https://github.com/tipcoin-dev/tipcoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     git clone https://github.com/tipcoin-dev/tipcoin.git
@@ -62,7 +62,7 @@ If you're using the automated script (found in [contrib/gitian-build.py](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./monacoin
+    pushd ./tipcoin
     export SIGNER="(your Gitian key, ie bluematt, sipa, etc)"
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -95,10 +95,10 @@ Create the macOS SDK tarball, see the [macOS readme](README_osx.md) for details,
 
 NOTE: Gitian is sometimes unable to download files. If you have errors, try the step below.
 
-By default, Gitian will fetch source files as needed. To cache them ahead of time, make sure you have checked out the tag you want to build in monacoin, then:
+By default, Gitian will fetch source files as needed. To cache them ahead of time, make sure you have checked out the tag you want to build in tipcoin, then:
 
     pushd ./gitian-builder
-    make -C ../monacoin/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../tipcoin/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -106,7 +106,7 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url monacoin=/path/to/monacoin,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url tipcoin=/path/to/tipcoin,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
@@ -117,39 +117,39 @@ The gbuild invocations below <b>DO NOT DO THIS</b> by default.
     export GITIAN_MEMORY=3000
     
     pushd ./gitian-builder
-    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit monacoin=${VERSION} ../monacoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../monacoin/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/monacoin-*.tar.gz build/out/src/monacoin-*.tar.gz ../
+    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit tipcoin=${VERSION} ../tipcoin/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../tipcoin/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/tipcoin-*.tar.gz build/out/src/tipcoin-*.tar.gz ../
 
-    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit monacoin=${VERSION} ../monacoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-unsigned --destination ../gitian.sigs.ltc/ ../monacoin/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/monacoin-*-win-unsigned.tar.gz inputs/monacoin-win-unsigned.tar.gz
-    mv build/out/monacoin-*.zip build/out/monacoin-*.exe ../
+    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit tipcoin=${VERSION} ../tipcoin/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-unsigned --destination ../gitian.sigs.ltc/ ../tipcoin/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/tipcoin-*-win-unsigned.tar.gz inputs/tipcoin-win-unsigned.tar.gz
+    mv build/out/tipcoin-*.zip build/out/tipcoin-*.exe ../
 
-    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit monacoin=${VERSION} ../monacoin/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../monacoin/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/monacoin-*-osx-unsigned.tar.gz inputs/monacoin-osx-unsigned.tar.gz
-    mv build/out/monacoin-*.tar.gz build/out/monacoin-*.dmg ../
+    ./bin/gbuild --num-make $GITIAN_THREADS --memory $GITIAN_MEMORY --commit tipcoin=${VERSION} ../tipcoin/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../tipcoin/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/tipcoin-*-osx-unsigned.tar.gz inputs/tipcoin-osx-unsigned.tar.gz
+    mv build/out/tipcoin-*.tar.gz build/out/tipcoin-*.dmg ../
     popd
 
 Build output expected:
 
-  1. source tarball (`monacoin-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`monacoin-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`monacoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `monacoin-${VERSION}-win[32|64].zip`)
-  4. macOS unsigned installer and dist tarball (`monacoin-${VERSION}-osx-unsigned.dmg`, `monacoin-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`tipcoin-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`tipcoin-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`tipcoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `tipcoin-${VERSION}-win[32|64].zip`)
+  4. macOS unsigned installer and dist tarball (`tipcoin-${VERSION}-osx-unsigned.dmg`, `tipcoin-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs.ltc/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
-Add other gitian builders keys to your gpg keyring, and/or refresh keys: See `../monacoin/contrib/gitian-keys/README.md`.
+Add other gitian builders keys to your gpg keyring, and/or refresh keys: See `../tipcoin/contrib/gitian-keys/README.md`.
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-linux ../monacoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../monacoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../monacoin/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-linux ../tipcoin/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../tipcoin/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../tipcoin/contrib/gitian-descriptors/gitian-osx.yml
     popd
 
 ### Next steps:
@@ -170,22 +170,22 @@ Codesigner only: Create Windows/macOS detached signatures:
 
 Codesigner only: Sign the macOS binary:
 
-    transfer monacoin-osx-unsigned.tar.gz to macOS for signing
-    tar xf monacoin-osx-unsigned.tar.gz
+    transfer tipcoin-osx-unsigned.tar.gz to macOS for signing
+    tar xf tipcoin-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf monacoin-win-unsigned.tar.gz
+    tar xf tipcoin-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/monacoin-detached-sigs
+    cd ~/tipcoin-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -198,25 +198,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/macOS detached signatures:
 
 - Once the Windows/macOS builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [monacoin-detached-sigs](https://github.com/tipcoin-dev/tipcoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [tipcoin-detached-sigs](https://github.com/tipcoin-dev/tipcoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed macOS binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=${VERSION} ../monacoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-signed --destination ../gitian.sigs.ltc/ ../monacoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../monacoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/monacoin-osx-signed.dmg ../monacoin-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=${VERSION} ../tipcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-signed --destination ../gitian.sigs.ltc/ ../tipcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../tipcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/tipcoin-osx-signed.dmg ../tipcoin-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=${VERSION} ../monacoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-signed --destination ../gitian.sigs.ltc/ ../monacoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-signed ../monacoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/monacoin-*win64-setup.exe ../monacoin-${VERSION}-win64-setup.exe
-    mv build/out/monacoin-*win32-setup.exe ../monacoin-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=${VERSION} ../tipcoin/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-signed --destination ../gitian.sigs.ltc/ ../tipcoin/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-signed ../tipcoin/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/tipcoin-*win64-setup.exe ../tipcoin-${VERSION}-win64-setup.exe
+    mv build/out/tipcoin-*win32-setup.exe ../tipcoin-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed macOS/Windows binaries:
@@ -238,17 +238,17 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-monacoin-${VERSION}-aarch64-linux-gnu.tar.gz
-monacoin-${VERSION}-arm-linux-gnueabihf.tar.gz
-monacoin-${VERSION}-i686-pc-linux-gnu.tar.gz
-monacoin-${VERSION}-x86_64-linux-gnu.tar.gz
-monacoin-${VERSION}-osx64.tar.gz
-monacoin-${VERSION}-osx.dmg
-monacoin-${VERSION}.tar.gz
-monacoin-${VERSION}-win32-setup.exe
-monacoin-${VERSION}-win32.zip
-monacoin-${VERSION}-win64-setup.exe
-monacoin-${VERSION}-win64.zip
+tipcoin-${VERSION}-aarch64-linux-gnu.tar.gz
+tipcoin-${VERSION}-arm-linux-gnueabihf.tar.gz
+tipcoin-${VERSION}-i686-pc-linux-gnu.tar.gz
+tipcoin-${VERSION}-x86_64-linux-gnu.tar.gz
+tipcoin-${VERSION}-osx64.tar.gz
+tipcoin-${VERSION}-osx.dmg
+tipcoin-${VERSION}.tar.gz
+tipcoin-${VERSION}-win32-setup.exe
+tipcoin-${VERSION}-win32.zip
+tipcoin-${VERSION}-win64-setup.exe
+tipcoin-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
@@ -271,11 +271,11 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
 - Announce the release:
 
-  - monacoin-dev and monacoin-dev mailing list
+  - tipcoin-dev and tipcoin-dev mailing list
 
   - blog.tipcoin.us blog post
 
-  - Update title of #monacoin and #monacoin-dev on Freenode IRC
+  - Update title of #tipcoin and #tipcoin-dev on Freenode IRC
 
   - Optionally twitter, reddit /r/Tipcoin, ... but this will usually sort out itself
 

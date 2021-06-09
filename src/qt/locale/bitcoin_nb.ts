@@ -422,8 +422,8 @@
         <translation>Verktøylinje for faner</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Forespør betalinger (genererer QR-koder og monacoin: URIer)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Forespør betalinger (genererer QR-koder og tipcoin: URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -434,7 +434,7 @@
         <translation>Vis listen over bruke mottaksadresser og merkelapper</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
+        <source>Open a tipcoin: URI or payment request</source>
         <translation>Åpne en Tipcoin: URI eller betalingsetterspørring</translation>
     </message>
     <message>
@@ -878,12 +878,12 @@
         <translation>Skjema</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
-        <translation>Det kan hende nylige transaksjoner ikke vises enda, og at lommeboksaldoen dermed blir uriktig. Denne informasjonen vil rette seg når synkronisering av lommeboka mot monacoin-nettverket er fullført, som anvist nedenfor.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the tipcoin network, as detailed below.</source>
+        <translation>Det kan hende nylige transaksjoner ikke vises enda, og at lommeboksaldoen dermed blir uriktig. Denne informasjonen vil rette seg når synkronisering av lommeboka mot tipcoin-nettverket er fullført, som anvist nedenfor.</translation>
     </message>
     <message>
         <source>Attempting to spend tipcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Forsøk på å bruke monacoin som er påvirket av transaksjoner som ikke er vist enda godtas ikke av nettverket.</translation>
+        <translation>Forsøk på å bruke tipcoin som er påvirket av transaksjoner som ikke er vist enda godtas ikke av nettverket.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1286,8 +1286,8 @@
         <translation>Feil ved betalingsforespørsel</translation>
     </message>
     <message>
-        <source>Cannot start monacoin: click-to-pay handler</source>
-        <translation>Kan ikke starte monacoin: Klikk-og-betal håndterer</translation>
+        <source>Cannot start tipcoin: click-to-pay handler</source>
+        <translation>Kan ikke starte tipcoin: Klikk-og-betal håndterer</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1303,7 +1303,7 @@
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Tipcoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke fortolkes! Dette kan være forårsaket av en ugyldig monacoin-adresse eller feilformede URI-parametre.</translation>
+        <translation>URI kan ikke fortolkes! Dette kan være forårsaket av en ugyldig tipcoin-adresse eller feilformede URI-parametre.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2061,7 +2061,7 @@
         <translation>Skjul</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for monacoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for tipcoin transactions than the network can process.</source>
         <translation>Betaling av bare minimumsavgiften går helt fint så lenge det er mindre transaksjonsvolum enn plass i blokkene. Men vær klar over at dette kan ende opp i en transaksjon som aldri blir bekreftet når det er mer etterspørsel etter Tipcoin-transaksjoner enn nettverket kan behandle.</translation>
     </message>
     <message>
@@ -2230,7 +2230,7 @@
     </message>
     <message>
         <source>Warning: Invalid Tipcoin address</source>
-        <translation>Advarsel Ugyldig monacoin-adresse</translation>
+        <translation>Advarsel Ugyldig tipcoin-adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2320,8 +2320,8 @@
         <translation>Skriv inn en merkelapp for denne adressen for å legge den til listen av brukte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
-        <translation>En melding som var tilknyttet monacoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Tipcoin-nettverket.</translation>
+        <source>A message that was attached to the tipcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
+        <translation>En melding som var tilknyttet tipcoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Tipcoin-nettverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>

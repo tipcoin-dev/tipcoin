@@ -355,7 +355,7 @@
     </message>
     <message>
         <source>Send coins to a Tipcoin address</source>
-        <translation>Enviar moedas para um endereço monacoin</translation>
+        <translation>Enviar moedas para um endereço tipcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -430,8 +430,8 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Solicitações de pagamentos (gera códigos QR e monacoin: URIs)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Solicitações de pagamentos (gera códigos QR e tipcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -442,8 +442,8 @@
         <translation>Mostrar a lista de endereços de recebimento usados ​​e rótulos</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Abrir um monacoin: URI ou cobrança</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Abrir um tipcoin: URI ou cobrança</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -900,7 +900,7 @@
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the tipcoin network, as detailed below.</source>
         <translation>Transações recentes podem não estar visíveis ainda, portanto o seu saldo pode estar incorreto. Esta informação será corrigida assim que sua carteira for sincronizada com a rede, como detalhado abaixo.</translation>
     </message>
     <message>
@@ -1324,16 +1324,16 @@
         <translation>Erro no pedido de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start monacoin: click-to-pay handler</source>
-        <translation>Não foi possível iniciar monacoin: manipulador click-to-pay</translation>
+        <source>Cannot start tipcoin: click-to-pay handler</source>
+        <translation>Não foi possível iniciar tipcoin: manipulador click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Manipulação de URI</translation>
     </message>
     <message>
-        <source>'monacoin://' is not a valid URI. Use 'monacoin:' instead.</source>
-        <translation>'monacoin://' não é um URI válido. Use 'monacoin:'.</translation>
+        <source>'tipcoin://' is not a valid URI. Use 'tipcoin:' instead.</source>
+        <translation>'tipcoin://' não é um URI válido. Use 'tipcoin:'.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -2147,7 +2147,7 @@ Nota:  Como a taxa é calculada por byte, uma taxa de "100 satoshis por kB" por 
         <translation>Ocultar</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for monacoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for tipcoin transactions than the network can process.</source>
         <translation>Pagando apenas a taxa mínima é bom, desde que haja pouco volume de transações. Mas esteja ciente de que isso pode acabar em uma transação nunca confirmanda uma vez que há mais demanda por transações do que a rede pode processar.</translation>
     </message>
     <message>
@@ -2418,8 +2418,8 @@ Nota:  Como a taxa é calculada por byte, uma taxa de "100 satoshis por kB" por 
         <translation>Digite um rótulo para este endereço para adicioná-lo no catálogo</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
-        <translation>A mensagem que foi anexada ao monacoin: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Tipcoin.</translation>
+        <source>A message that was attached to the tipcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
+        <translation>A mensagem que foi anexada ao tipcoin: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Tipcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>

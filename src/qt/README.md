@@ -1,4 +1,4 @@
-This directory contains the MonacoinQT graphical user interface (GUI). It uses the cross-platform framework [Qt](https://www1.qt.io/developers/).
+This directory contains the TipcoinQT graphical user interface (GUI). It uses the cross-platform framework [Qt](https://www1.qt.io/developers/).
 
 The current precise version for Qt 5 is specified in [qt.mk](/depends/packages/qt.mk).
 
@@ -50,7 +50,7 @@ Various dialogs, e.g. to open a URL. Inherit from [QDialog](https://doc.qt.io/qt
 
 ### paymentserver.(h/cpp)
 
-Used to process BIP21 and BIP70 (see https://github.com/bitcoin/bitcoin/pull/11622) payment URI / requests. Also handles URI based application switching (e.g. when following a monacoin:... link from a browser).
+Used to process BIP21 and BIP70 (see https://github.com/bitcoin/bitcoin/pull/11622) payment URI / requests. Also handles URI based application switching (e.g. when following a tipcoin:... link from a browser).
 
 ### walletview.(h/cpp)
 

@@ -173,7 +173,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TIPCOINS&lt;/b&gt;!</source>
-        <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA MONACOINID&lt;/b&gt;!</translation>
+        <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA TIPCOINID&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -295,7 +295,7 @@
     </message>
     <message>
         <source>Send coins to a Tipcoin address</source>
-        <translation>Saada münte Monacoini aadressile</translation>
+        <translation>Saada münte Tipcoini aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -347,11 +347,11 @@
     </message>
     <message>
         <source>Sign messages with your Tipcoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Monacoini aadressiga</translation>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Tipcoini aadressiga</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Monacoini aadressiga</translation>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Tipcoini aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -370,12 +370,12 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja monacoini: URId)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Loo maksepäring (genereerib QR koodid ja tipcoini: URId)</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Ava monacoini: URI või maksepäring</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Ava tipcoini: URI või maksepäring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -383,7 +383,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Tipcoin network</source>
-        <translation><numerusform>%n aktiivne ühendus Monacoini võrku</numerusform><numerusform>%n aktiivset ühendust Monacoini võrku</numerusform></translation>
+        <translation><numerusform>%n aktiivne ühendus Tipcoini võrku</numerusform><numerusform>%n aktiivset ühendust Tipcoini võrku</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -741,7 +741,7 @@
     </message>
     <message>
         <source>Automatically open the Tipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Monacoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <translation>Tipcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1462,7 +1462,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Tipcoin address</source>
-        <translation>Allkirjasta sõnum Monacoini aadressi sulle kuulumise tõestamiseks</translation>
+        <translation>Allkirjasta sõnum Tipcoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1486,7 +1486,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Tipcoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Monacoini aadressiga.</translation>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Tipcoini aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1919,7 +1919,7 @@
     <name>bitcoin-core</name>
     <message>
         <source>Tipcoin Core</source>
-        <translation>Monacoini tuumik</translation>
+        <translation>Tipcoini tuumik</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>

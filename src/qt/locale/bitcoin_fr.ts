@@ -434,8 +434,8 @@
         <translation>Barre d’outils des onglets</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Demander des paiements (génère des codes QR et des URI monacoin:)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Demander des paiements (génère des codes QR et des URI tipcoin:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -446,8 +446,8 @@
         <translation>Afficher la liste d’adresses de réception et d’étiquettes utilisées</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Ouvrir une URI monacoin: ou une demande de paiement</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Ouvrir une URI tipcoin: ou une demande de paiement</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -904,7 +904,7 @@
         <translation>Formulaire</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the tipcoin network, as detailed below.</source>
         <translation>Les transactions récentes ne sont peut-être pas encore visibles et par conséquent le solde de votre porte-monnaie est peut-être erroné. Cette information sera juste quand votre porte-monnaie aura fini de se synchroniser avec le réseau Tipcoin, comme décrit ci-dessous.</translation>
     </message>
     <message>
@@ -1328,16 +1328,16 @@
         <translation>Erreur de demande de paiement</translation>
     </message>
     <message>
-        <source>Cannot start monacoin: click-to-pay handler</source>
-        <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer monacoin:</translation>
+        <source>Cannot start tipcoin: click-to-pay handler</source>
+        <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer tipcoin:</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Gestion des URI</translation>
     </message>
     <message>
-        <source>'monacoin://' is not a valid URI. Use 'monacoin:' instead.</source>
-        <translation>'monacoin://' n’est pas une URI valide. Utilisez plutôt 'monacoin:'.</translation>
+        <source>'tipcoin://' is not a valid URI. Use 'tipcoin:' instead.</source>
+        <translation>'tipcoin://' n’est pas une URI valide. Utilisez plutôt 'tipcoin:'.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -2151,7 +2151,7 @@ Note : Les frais étant calculés par octet, des frais de « 100 satoshis par
         <translation>Cacher</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for monacoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for tipcoin transactions than the network can process.</source>
         <translation>Il est correct de payer les frais minimum tant que le volume transactionnel est inférieur à l’espace dans les blocs. Mais soyez conscient que cela pourrait résulter en une transaction n’étant jamais confirmée une fois qu’il y aura plus de transactions que le réseau ne pourra en traiter.</translation>
     </message>
     <message>
@@ -2422,8 +2422,8 @@ Note : Les frais étant calculés par octet, des frais de « 100 satoshis par
         <translation>Saisir une étiquette pour cette adresse afin de l’ajouter à la liste d’adresses utilisées</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
-        <translation>Un message qui était joint à l’URI monacoin: et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau Tipcoin.</translation>
+        <source>A message that was attached to the tipcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
+        <translation>Un message qui était joint à l’URI tipcoin: et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau Tipcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>

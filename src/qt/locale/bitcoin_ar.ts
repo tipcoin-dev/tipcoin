@@ -422,7 +422,7 @@
         <translation>شريط أدوات علامات التبويب</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
         <translation>أطلب دفعات (يولد كودات الرمز المربع وبيت كوين: العناوين المعطاة)</translation>
     </message>
     <message>
@@ -434,7 +434,7 @@
         <translation>عرض قائمة عناوين الإستقبال المستخدمة والملصقات</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
+        <source>Open a tipcoin: URI or payment request</source>
         <translation>فتح URI : Tipcoin أو طلب دفع</translation>
     </message>
     <message>
@@ -856,8 +856,8 @@
         <translation>نمودج</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
-        <translation>قد لا تكون المعاملات الأخيرة مرئية بعد، وبالتالي قد يكون رصيد محفظتك غير صحيح. ستكون هذه المعلومات صحيحة بمجرد الانتهاء من محفظتك مع شبكة الMonacoin، كما هو مفصل أدناه.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the tipcoin network, as detailed below.</source>
+        <translation>قد لا تكون المعاملات الأخيرة مرئية بعد، وبالتالي قد يكون رصيد محفظتك غير صحيح. ستكون هذه المعلومات صحيحة بمجرد الانتهاء من محفظتك مع شبكة الTipcoin، كما هو مفصل أدناه.</translation>
     </message>
     <message>
         <source>Attempting to spend tipcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1236,7 +1236,7 @@
         <translation>خطأ في طلب الدفع</translation>
     </message>
     <message>
-        <source>Cannot start monacoin: click-to-pay handler</source>
+        <source>Cannot start tipcoin: click-to-pay handler</source>
         <translation>لا يمكن تشغيل بتكوين: معالج النقر للدفع</translation>
     </message>
     <message>
@@ -1975,7 +1975,7 @@
         <translation>إخفاء</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for monacoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for tipcoin transactions than the network can process.</source>
         <translation>إن دفع الحد الأدنى فقط من الرسوم يجوز طالما أن حجم المعاملات أقل من المساحة الموجودة في الكتل. ولكن كن على علم بأن هذا يمكن أن ينتهي في معاملة غير مؤكدة أبداً عندما يكون هناك طلب أكبر على معاملات البتكوين مما تستطيع الشبكة معالجته.</translation>
     </message>
     <message>
@@ -2226,7 +2226,7 @@
         <translation>أدخل تسمية لهذا العنوان لإضافته إلى قائمة العناوين المستخدمة</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
+        <source>A message that was attached to the tipcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
         <translation>الرسالة التي تم إرفاقها مع البتكوين: العنوان الذي سيتم تخزينه مع المعاملة للرجوع إليه. ملاحظة: لن يتم إرسال هذه الرسالة عبر شبكة البتكوين.</translation>
     </message>
     <message>

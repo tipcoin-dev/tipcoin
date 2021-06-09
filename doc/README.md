@@ -28,10 +28,10 @@ Drag Tipcoin Core to your applications folder, and then run Tipcoin Core.
 
 ### Need Help?
 
-* See the documentation at the [Tipcoin Wiki](https://monacoin.info/)
+* See the documentation at the [Tipcoin Wiki](https://tipcoin.info/)
 for help and more information.
-* Ask for help on [#monacoin](http://webchat.freenode.net?channels=monacoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=monacoin).
-* Ask for help on the [MonacoinTalk](https://monacointalk.io/) forums.
+* Ask for help on [#tipcoin](http://webchat.freenode.net?channels=tipcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=tipcoin).
+* Ask for help on the [TipcoinTalk](https://tipcointalk.io/) forums.
 
 Building
 ---------------------
@@ -62,8 +62,8 @@ The Tipcoin repo's [root README](/README.md) contains relevant information on th
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [MonacoinTalk](https://monacointalk.io/) forums.
-* Discuss general Tipcoin development on #monacoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=monacoin-dev).
+* Discuss on the [TipcoinTalk](https://tipcointalk.io/) forums.
+* Discuss general Tipcoin development on #tipcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=tipcoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

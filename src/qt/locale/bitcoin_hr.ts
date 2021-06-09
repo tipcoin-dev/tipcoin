@@ -173,7 +173,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TIPCOINS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE MONACOINE!&lt;/b&gt;</translation>
+        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE TIPCOINE!&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <source>Send coins to a Tipcoin address</source>
-        <translation>Slanje novca na monacoin adresu</translation>
+        <translation>Slanje novca na tipcoin adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -359,11 +359,11 @@
     </message>
     <message>
         <source>Sign messages with your Tipcoin addresses to prove you own them</source>
-        <translation>Poruku potpišemo s monacoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <translation>Poruku potpišemo s tipcoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
-        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom monacoin adresom</translation>
+        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom tipcoin adresom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -382,8 +382,8 @@
         <translation>Traka kartica</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Zatraži uplatu (stvara QR kod i monacoin: URI adresu)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Zatraži uplatu (stvara QR kod i tipcoin: URI adresu)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -394,8 +394,8 @@
         <translation>Prikaži popis korištenih adresa i oznaka za primanje novca</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Otvori monacoin: URI adresu ili zahtjev za uplatu</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Otvori tipcoin: URI adresu ili zahtjev za uplatu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -595,7 +595,7 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Oznaka monacoin adrese</translation>
+        <translation>Oznaka tipcoin adrese</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
@@ -619,7 +619,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Tipcoin address.</source>
-        <translation>Upisana adresa "%1" nije valjana monacoin adresa.</translation>
+        <translation>Upisana adresa "%1" nije valjana tipcoin adresa.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -809,7 +809,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izaberite željeni najmanji dio monacoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation>Izaberite željeni najmanji dio tipcoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <source>&amp;OK</source>

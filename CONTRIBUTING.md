@@ -18,14 +18,14 @@ Communication Channels
 ----------------------
 
 Most communication about Tipcoin Core development happens on IRC, in the
-#monacoin-dev channel on Freenode. The easiest way to participate on IRC is
+#tipcoin-dev channel on Freenode. The easiest way to participate on IRC is
 with the web client, [webchat.freenode.net](https://webchat.freenode.net/).
 
 Discussion about code base improvements happens in GitHub issues and on pull
 requests.
 
 The developer
-[mailing list](https://groups.google.com/forum/#!forum/monacoin-dev)
+[mailing list](https://groups.google.com/forum/#!forum/tipcoin-dev)
 should be used to discuss complicated or controversial changes before working on
 a patch set.
 
@@ -77,7 +77,7 @@ the pull request affects. Valid areas as:
   - *Net* or *P2P* for changes to the peer-to-peer network code
   - *RPC/REST/ZMQ* for changes to the RPC, REST or ZMQ APIs
   - *Scripts and tools* for changes to the scripts and tools
-  - *Tests* for changes to the monacoin unit tests or QA tests
+  - *Tests* for changes to the tipcoin unit tests or QA tests
   - *Trivial* should **only** be used for PRs that do not change generated
     executable code. Notably, refactors (change of function arguments and code
     reorganization) and changes in behavior should **not** be marked as trivial.

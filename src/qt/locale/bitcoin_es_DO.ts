@@ -326,7 +326,7 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
         <translation>Solicitar pagos (genera codigo QR y URL's de Tipcoin)</translation>
     </message>
     <message>
@@ -338,8 +338,8 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Abrir un monacoin: URI o petición de pago</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Abrir un tipcoin: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

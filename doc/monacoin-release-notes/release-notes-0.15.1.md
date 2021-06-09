@@ -11,7 +11,7 @@ Please report bugs using the issue tracker at GitHub:
 
 To receive security and update notifications, please subscribe to:
 
-  <https://groups.google.com/forum/#!forum/monacoin-dev>
+  <https://groups.google.com/forum/#!forum/tipcoin-dev>
 
 How to Upgrade
 ==============

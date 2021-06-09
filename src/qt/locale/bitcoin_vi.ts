@@ -169,7 +169,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TIPCOINS&lt;/b&gt;!</source>
-        <translation>Cảnh báo: Nếu bạn mã hóa ví và mất cụm mật khẩu, bạn sẽ &lt;b&gt;MẤT TẤT CẢ MONACOIN&lt;/b&gt;!</translation>
+        <translation>Cảnh báo: Nếu bạn mã hóa ví và mất cụm mật khẩu, bạn sẽ &lt;b&gt;MẤT TẤT CẢ TIPCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -414,8 +414,8 @@
         <translation>Các thanh công cụ</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Yêu cầu thanh toán (tạo QR code và monacoin: URIs)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Yêu cầu thanh toán (tạo QR code và tipcoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +426,8 @@
         <translation>Hiển thị danh sách các địa chỉ và nhãn đã dùng để nhận</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Mở một monacoin: URI hoặc yêu cầu thanh toán</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Mở một tipcoin: URI hoặc yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -870,8 +870,8 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
-        <translation>Giao dịch gần đây có thể chưa được hiển thị, và vì vậy số dư wallet của bạn có thể không dúng. Thông tin này sẽ được làm đúng khi wallet hoàn thành đồng bộ với monacoin network, như chi tiết bên dưới.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the tipcoin network, as detailed below.</source>
+        <translation>Giao dịch gần đây có thể chưa được hiển thị, và vì vậy số dư wallet của bạn có thể không dúng. Thông tin này sẽ được làm đúng khi wallet hoàn thành đồng bộ với tipcoin network, như chi tiết bên dưới.</translation>
     </message>
     <message>
         <source>Attempting to spend tipcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1254,8 +1254,8 @@
         <translation>Payment request error</translation>
     </message>
     <message>
-        <source>Cannot start monacoin: click-to-pay handler</source>
-        <translation>Không thể khởi tạo monacoin: click-to-pay handler</translation>
+        <source>Cannot start tipcoin: click-to-pay handler</source>
+        <translation>Không thể khởi tạo tipcoin: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2021,8 +2021,8 @@
         <translation>Ẩn</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for monacoin transactions than the network can process.</source>
-        <translation>Chi trả chỉ số nhỏ nhất fee thì ổn cho tới khi có ít transaction volume hơn khoảng trống trong blocks. Nhưng nhận ra rằng điều này kết thúc trong việc chẳng bao giờ xác nhận transaction trừ khi có nhiều nhu cầu cho giao dịch monacoin hơn so với mạng có thể xử lý.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for tipcoin transactions than the network can process.</source>
+        <translation>Chi trả chỉ số nhỏ nhất fee thì ổn cho tới khi có ít transaction volume hơn khoảng trống trong blocks. Nhưng nhận ra rằng điều này kết thúc trong việc chẳng bao giờ xác nhận transaction trừ khi có nhiều nhu cầu cho giao dịch tipcoin hơn so với mạng có thể xử lý.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2260,8 +2260,8 @@
         <translation>Nhập một label cho cái address này để thêm vào danh sách địa chỉ đã sử dụng</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
-        <translation>Một tin nhắn được đính kèm với số monacoin: URI mà sẽ được lưu giữ với transaction dành cho tài liệu tham khảo. Lưu ý: Tin nhắn này sẽ không được gửi thông qua Tipcoin network.</translation>
+        <source>A message that was attached to the tipcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
+        <translation>Một tin nhắn được đính kèm với số tipcoin: URI mà sẽ được lưu giữ với transaction dành cho tài liệu tham khảo. Lưu ý: Tin nhắn này sẽ không được gửi thông qua Tipcoin network.</translation>
     </message>
     <message>
         <source>Pay To:</source>

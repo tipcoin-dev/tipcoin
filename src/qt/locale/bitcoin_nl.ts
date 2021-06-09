@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>These are your Tipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Monacoinadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw tipcoins verzendt.</translation>
+        <translation>Dit zijn uw Tipcoinadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw tipcoins verzendt.</translation>
     </message>
     <message>
         <source>These are your Tipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -359,7 +359,7 @@
     </message>
     <message>
         <source>Send coins to a Tipcoin address</source>
-        <translation>Verstuur munten naar een Monacoinadres</translation>
+        <translation>Verstuur munten naar een Tipcoinadres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -411,11 +411,11 @@
     </message>
     <message>
         <source>Sign messages with your Tipcoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Monacoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <translation>Onderteken berichten met uw Tipcoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Tipcoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Monacoinadressen</translation>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Tipcoinadressen</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -434,8 +434,8 @@
         <translation>Tab-werkbalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en monacoin: URI's)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en tipcoin: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -446,8 +446,8 @@
         <translation>Toon de lijst met gebruikte ontvangstadressen en labels</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Open een monacoin: URI of betalingsverzoek</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Open een tipcoin: URI of betalingsverzoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -455,7 +455,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Tipcoin network</source>
-        <translation><numerusform>%n actieve verbinding met Monacoinnetwerk</numerusform><numerusform>%n actieve verbindingen met Monacoinnetwerk</numerusform></translation>
+        <translation><numerusform>%n actieve verbinding met Tipcoinnetwerk</numerusform><numerusform>%n actieve verbindingen met Tipcoinnetwerk</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -765,7 +765,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Tipcoin address.</source>
-        <translation>Het opgegeven adres "%1" is een ongeldig Monacoinadres.</translation>
+        <translation>Het opgegeven adres "%1" is een ongeldig Tipcoinadres.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -904,7 +904,7 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the tipcoin network, as detailed below.</source>
         <translation>Recente transacties zijn mogelijk nog niet zichtbaar. De balans van de portemonnee is daarom mogelijk niet correct. Deze informatie is correct van zodra de synchronisatie met het Tipcoin-netwerk werd voltooid, zoals onderaan beschreven.</translation>
     </message>
     <message>
@@ -1095,7 +1095,7 @@
     </message>
     <message>
         <source>Automatically open the Tipcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Monacoinpoort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <translation>Open de Tipcoinpoort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1111,7 +1111,7 @@
     </message>
     <message>
         <source>Connect to the Tipcoin network through a SOCKS5 proxy.</source>
-        <translation>Verbind met het Monacoinnetwerk via een SOCKS5 proxy.</translation>
+        <translation>Verbind met het Tipcoinnetwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1147,7 +1147,7 @@
     </message>
     <message>
         <source>Connect to the Tipcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Maak verbinding met Monacoinnetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
+        <translation>Maak verbinding met Tipcoinnetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1254,7 +1254,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tipcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automatisch met het Monacoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automatisch met het Tipcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1328,16 +1328,16 @@
         <translation>Fout bij betalingsverzoek</translation>
     </message>
     <message>
-        <source>Cannot start monacoin: click-to-pay handler</source>
-        <translation>Kan monacoin niet starten: click-to-pay handler</translation>
+        <source>Cannot start tipcoin: click-to-pay handler</source>
+        <translation>Kan tipcoin niet starten: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>URI-behandeling</translation>
     </message>
     <message>
-        <source>'monacoin://' is not a valid URI. Use 'monacoin:' instead.</source>
-        <translation>'monacoin://' is niet een geldige URI. Gebruik 'monacoin:' in plaats daarvan.</translation>
+        <source>'tipcoin://' is not a valid URI. Use 'tipcoin:' instead.</source>
+        <translation>'tipcoin://' is niet een geldige URI. Gebruik 'tipcoin:' in plaats daarvan.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1451,7 +1451,7 @@
     </message>
     <message>
         <source>Enter a Tipcoin address (e.g. %1)</source>
-        <translation>Voer een Monacoinadres in (bijv. %1)</translation>
+        <translation>Voer een Tipcoinadres in (bijv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1899,7 +1899,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Tipcoin network.</source>
-        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, welke zal getoond worden wanneer het verzoek is geopend. Opmerking: Het bericht zal niet worden verzonden met de betaling over het Monacoinnetwerk.</translation>
+        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, welke zal getoond worden wanneer het verzoek is geopend. Opmerking: Het bericht zal niet worden verzonden met de betaling over het Tipcoinnetwerk.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2151,8 +2151,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>Verbergen</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for monacoin transactions than the network can process.</source>
-        <translation>De minimale toeslag betalen is prima mits het transactievolume kleiner is dan de ruimte in de blokken. Let wel op dat dit tot gevolg kan hebben dat een transactie nooit wordt bevestigd als er meer vraag is naar monacointransacties dan het netwerk kan verwerken.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for tipcoin transactions than the network can process.</source>
+        <translation>De minimale toeslag betalen is prima mits het transactievolume kleiner is dan de ruimte in de blokken. Let wel op dat dit tot gevolg kan hebben dat een transactie nooit wordt bevestigd als er meer vraag is naar tipcointransacties dan het netwerk kan verwerken.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2332,7 +2332,7 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>Warning: Invalid Tipcoin address</source>
-        <translation>Waarschuwing: Ongeldig Monacoinadres</translation>
+        <translation>Waarschuwing: Ongeldig Tipcoinadres</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2375,7 +2375,7 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>The Tipcoin address to send the payment to</source>
-        <translation>Het Monacoinadres om betaling aan te versturen</translation>
+        <translation>Het Tipcoinadres om betaling aan te versturen</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2422,8 +2422,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation>Vul een label voor dit adres in om het aan de lijst met gebruikte adressen toe te voegen</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
-        <translation>Een bericht dat werd toegevoegd aan de monacoin: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Monacoinnetwerk.</translation>
+        <source>A message that was attached to the tipcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
+        <translation>Een bericht dat werd toegevoegd aan de tipcoin: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Tipcoinnetwerk.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2472,7 +2472,7 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>The Tipcoin address to sign the message with</source>
-        <translation>Het Monacoinadres om bericht mee te ondertekenen</translation>
+        <translation>Het Tipcoinadres om bericht mee te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2504,7 +2504,7 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>Sign the message to prove you own this Tipcoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Monacoinadres bezit</translation>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Tipcoinadres bezit</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2528,11 +2528,11 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>The Tipcoin address the message was signed with</source>
-        <translation>Het Monacoinadres waarmee het bericht ondertekend is</translation>
+        <translation>Het Tipcoinadres waarmee het bericht ondertekend is</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Tipcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Monacoinadres het bericht heeft ondertekend.</translation>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Tipcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

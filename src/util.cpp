@@ -685,7 +685,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(nullptr, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "monacoin";
+    const char* pszModule = "tipcoin";
 #endif
     if (pex)
         return strprintf(
@@ -1224,28 +1224,32 @@ std::string CopyrightHolders(const std::string& strPrefix)
     // Check for untranslated substitution to make sure Bitcoin Core copyright is not removed by accident
     if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("Bitcoin Core") == std::string::npos) {
         std::string strYear = strPrefix;
-        strYear.replace(strYear.find("2013"), sizeof("2013")-1, "2009");
-        strCopyrightHolders += "\n" + strYear + "The Bitcoin Core developers";
+        strYear.replace(strYear.find("2021"), sizeof("2021")-1, "2009");
+        strCopyrightHolders += "\n" + strYear + "The Bitcoin Core Developers";
 
         strYear = strPrefix;
-        strYear.replace(strYear.find("2013"), sizeof("2013")-1, "2011");
+        strYear.replace(strYear.find("2021"), sizeof("2021")-1, "2011");
         strCopyrightHolders += "\n" + strYear + "The Litecoin Core Developers";
 
         strYear = strPrefix;
-        strYear.replace(strYear.find("2013"), sizeof("2013")-1, "2011");
+        strYear.replace(strYear.find("2021"), sizeof("2021")-1, "2011");
         strCopyrightHolders += "\n" + strYear + "Dr. Kimoto Chan";
 
         strYear = strPrefix;
-        strYear.replace(strYear.find("2013"), sizeof("2013")-1, "2011");
-        strCopyrightHolders += "\n" + strYear + "The DigiByte developers";
+        strYear.replace(strYear.find("2021"), sizeof("2021")-1, "2011");
+        strCopyrightHolders += "\n" + strYear + "The DigiByte Developers";
 
         strYear = strPrefix;
-        strYear.replace(strYear.find("2013"), sizeof("2013")-1, "2014");
-        strCopyrightHolders += "\n" + strYear + "The Dash developers";
+        strYear.replace(strYear.find("2021"), sizeof("2021")-1, "2014");
+        strCopyrightHolders += "\n" + strYear + "The Dash Developers";
 
         strYear = strPrefix;
-        strYear.replace(strYear.find("2013"), sizeof("2013")-1, "2014");
+        strYear.replace(strYear.find("2021"), sizeof("2021")-1, "2014");
         strCopyrightHolders += "\n" + strYear + "The Vertcoin Developers";
+
+        strYear = strPrefix;
+        strYear.replace(strYear.find("2021"), sizeof("2021")-1, "2011");
+        strCopyrightHolders += "\n" + strYear + "The Monacoin Developers";
     }
     return strCopyrightHolders;
 }

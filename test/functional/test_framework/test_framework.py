@@ -72,9 +72,9 @@ class BitcoinTestMetaClass(type):
 
 
 class BitcoinTestFramework(metaclass=BitcoinTestMetaClass):
-    """Base class for a monacoin test script.
+    """Base class for a tipcoin test script.
 
-    Individual monacoin test scripts should subclass this class and override the set_test_params() and run_test() methods.
+    Individual tipcoin test scripts should subclass this class and override the set_test_params() and run_test() methods.
 
     Individual tests can also override the following methods to customize the test setup:
 
@@ -138,7 +138,7 @@ class BitcoinTestFramework(metaclass=BitcoinTestMetaClass):
         config = configparser.ConfigParser()
         config.read_file(open(self.options.configfile))
         self.options.bitcoind = os.getenv("TIPCOIND", default=config["environment"]["BUILDDIR"] + '/src/tipcoind' + config["environment"]["EXEEXT"])
-        self.options.bitcoincli = os.getenv("MONACOINCLI", default=config["environment"]["BUILDDIR"] + '/src/tipcoin-cli' + config["environment"]["EXEEXT"])
+        self.options.bitcoincli = os.getenv("TIPCOINCLI", default=config["environment"]["BUILDDIR"] + '/src/tipcoin-cli' + config["environment"]["EXEEXT"])
 
         os.environ['PATH'] = os.pathsep.join([
             os.path.join(config['environment']['BUILDDIR'], 'src'),

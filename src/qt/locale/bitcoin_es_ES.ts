@@ -418,8 +418,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Solicitar pagos (generando códigos QR e identificadores URI "monacoin:")</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Solicitar pagos (generando códigos QR e identificadores URI "tipcoin:")</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -430,8 +430,8 @@
         <translation>Muestra la lista de direcciones de recepción y etiquetas</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Abrir un identificador URI "monacoin:" o una petición de pago</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Abrir un identificador URI "tipcoin:" o una petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -846,8 +846,8 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
-        <translation>Las transacciones recientes podrían no ser visibles todavía, por lo que el balance de la cartera podría ser incorrecto. Esta información será correcta una vez su cartera se haya terminado de sincronizar con la red monacoin, como se detalla más abajo.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the tipcoin network, as detailed below.</source>
+        <translation>Las transacciones recientes podrían no ser visibles todavía, por lo que el balance de la cartera podría ser incorrecto. Esta información será correcta una vez su cartera se haya terminado de sincronizar con la red tipcoin, como se detalla más abajo.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1206,8 +1206,8 @@
         <translation>Fallo en la solicitud de pago</translation>
     </message>
     <message>
-        <source>Cannot start monacoin: click-to-pay handler</source>
-        <translation>No se puede iniciar monacoin: encargado click-para-pagar</translation>
+        <source>Cannot start tipcoin: click-to-pay handler</source>
+        <translation>No se puede iniciar tipcoin: encargado click-para-pagar</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1929,7 +1929,7 @@
         <translation>Ocultar</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for monacoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for tipcoin transactions than the network can process.</source>
         <translation>Pagando solamente la cuota mínima es correcto, siempre y cuando haya menos volumen de transacciones que el espacio en los bloques. Pero tenga en cuenta que esto puede terminar en una transacción nunca confirmada, una vez que haya más demanda para transacciones Tipcoin que la red pueda procesar.</translation>
     </message>
     <message>
@@ -2160,8 +2160,8 @@
         <translation>Introduce una etiqueta para esta dirección para añadirla a la lista de direcciones utilizadas</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
-        <translation>Un mensaje que se adjuntó a la monacoin: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Tipcoin.</translation>
+        <source>A message that was attached to the tipcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
+        <translation>Un mensaje que se adjuntó a la tipcoin: URL que será almacenada con la transacción para su referencia. Nota: Este mensaje no se envía a través de la red Tipcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>

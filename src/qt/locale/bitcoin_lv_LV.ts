@@ -290,12 +290,12 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un monacoin: URIs)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un tipcoin: URIs)</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Atvērt monacoin URI vai maksājuma pieprasījumu</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Atvērt tipcoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -563,7 +563,7 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ieslēgt monacoin &amp;kontroles funkcijas</translation>
+        <translation>Ieslēgt tipcoin &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>

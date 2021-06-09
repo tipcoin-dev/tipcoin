@@ -99,8 +99,8 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc < 2 || HelpRequested(gArgs)) {
         // First part of help message is specific to this utility
         std::string strUsage = PACKAGE_NAME " tipcoin-tx utility version " + FormatFullVersion() + "\n\n" +
-            "Usage:  tipcoin-tx [options] <hex-tx> [commands]  Update hex-encoded monacoin transaction\n" +
-            "or:     tipcoin-tx [options] -create [commands]   Create hex-encoded monacoin transaction\n" +
+            "Usage:  tipcoin-tx [options] <hex-tx> [commands]  Update hex-encoded tipcoin transaction\n" +
+            "or:     tipcoin-tx [options] -create [commands]   Create hex-encoded tipcoin transaction\n" +
             "\n";
         strUsage += gArgs.GetHelpMessage();
 

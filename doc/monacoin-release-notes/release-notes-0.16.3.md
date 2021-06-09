@@ -63,7 +63,7 @@ to upgrade any of the vulnerable versions to 0.16.3 as soon as possible.
 - #13547 `212ef1f` Make `signrawtransaction*` give an error when amount is needed but missing (ajtowns)
 
 ### Miscellaneous
-- #13655 `1cdbea7` monacoinconsensus: invalid flags error should be set to `monacoinconsensus_err` (afk11)
+- #13655 `1cdbea7` tipcoinconsensus: invalid flags error should be set to `tipcoinconsensus_err` (afk11)
 
 ### Documentation
 - #13844 `11b9dbb` correct the help output for -prune (hebasto)

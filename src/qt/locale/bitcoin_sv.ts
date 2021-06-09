@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>These are your Tipcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Tipcoin-adresser för att skicka betalningar. Kontrollera alltid summan och den mottagande adressen innan du skickar monacoin.</translation>
+        <translation>Detta är dina Tipcoin-adresser för att skicka betalningar. Kontrollera alltid summan och den mottagande adressen innan du skickar tipcoin.</translation>
     </message>
     <message>
         <source>These are your Tipcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -178,7 +178,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR TIPCOINS&lt;/b&gt;!</source>
-        <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA MONACOIN&lt;/b&gt;!</translation>
+        <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA TIPCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -348,7 +348,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Send coins to a Tipcoin address</source>
-        <translation>Skicka monacoin till en Tipcoin-adress</translation>
+        <translation>Skicka tipcoin till en Tipcoin-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -423,8 +423,8 @@ Var vänlig och försök igen.</translation>
         <translation>Verktygsfält för tabbar</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Begär betalningar (skapar QR-koder och monacoin: -URIer)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Begär betalningar (skapar QR-koder och tipcoin: -URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -435,8 +435,8 @@ Var vänlig och försök igen.</translation>
         <translation>Visa listan med använda mottagningsadresser och etiketter</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Öppna en monacoin: URI eller betalningsbegäran</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Öppna en tipcoin: URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -875,12 +875,12 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the tipcoin network, as detailed below.</source>
         <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med Tipcoin-nätverket enligt detaljer nedan.</translation>
     </message>
     <message>
         <source>Attempting to spend tipcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Att försöka spendera monacoin som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket. </translation>
+        <translation>Att försöka spendera tipcoin som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket. </translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1283,8 +1283,8 @@ Var vänlig och försök igen.</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start monacoin: click-to-pay handler</source>
-        <translation>Kan inte starta monacoin: klicka-och-betala hanteraren</translation>
+        <source>Cannot start tipcoin: click-to-pay handler</source>
+        <translation>Kan inte starta tipcoin: klicka-och-betala hanteraren</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2058,8 +2058,8 @@ Var vänlig och försök igen.</translation>
         <translation>Göm</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for monacoin transactions than the network can process.</source>
-        <translation>Att bara betala den minsta avgiften är helt ok så länge transaktionsvolymen är mindre än ledigt utrymme i blocken. Men tänk på att det kan bli en en transaktion som aldrig bekräftas om efterfrågan på monacoin-transaktioner är större än vad nätverket kan hantera.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for tipcoin transactions than the network can process.</source>
+        <translation>Att bara betala den minsta avgiften är helt ok så länge transaktionsvolymen är mindre än ledigt utrymme i blocken. Men tänk på att det kan bli en en transaktion som aldrig bekräftas om efterfrågan på tipcoin-transaktioner är större än vad nätverket kan hantera.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2290,7 +2290,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less tipcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre monacoin än du angivit i beloppsfältet. Om flera mottagare valts kommer avgiften att fördelas jämt.</translation>
+        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre tipcoin än du angivit i beloppsfältet. Om flera mottagare valts kommer avgiften att fördelas jämt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2317,8 +2317,8 @@ Var vänlig och försök igen.</translation>
         <translation>Ange en etikett för denna adress för att lägga till den i listan med använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
-        <translation>Ett meddelande som bifogades monacoin: -URIn och som lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Tipcoin-nätverket.</translation>
+        <source>A message that was attached to the tipcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
+        <translation>Ett meddelande som bifogades tipcoin: -URIn och som lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Tipcoin-nätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2363,7 +2363,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive tipcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot monacoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
+        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot tipcoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
         <source>The Tipcoin address to sign the message with</source>

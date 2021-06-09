@@ -550,7 +550,7 @@
     </message>
     <message>
         <location line="-158"/>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -565,7 +565,7 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a monacoin: URI or payment request</source>
+        <source>Open a tipcoin: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1139,7 +1139,7 @@
     </message>
     <message>
         <location line="+119"/>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the monacoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the tipcoin network, as detailed below.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1683,7 +1683,7 @@
     </message>
     <message>
         <location line="-398"/>
-        <source>Cannot start monacoin: click-to-pay handler</source>
+        <source>Cannot start tipcoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1696,7 +1696,7 @@
     </message>
     <message>
         <location line="-41"/>
-        <source>&apos;monacoin://&apos; is not a valid URI. Use &apos;monacoin:&apos; instead.</source>
+        <source>&apos;tipcoin://&apos; is not a valid URI. Use &apos;tipcoin:&apos; instead.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2774,7 +2774,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     <message>
         <location line="+80"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for monacoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for tipcoin transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3122,7 +3122,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of &quot;100 satos
     </message>
     <message>
         <location line="+54"/>
-        <source>A message that was attached to the monacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
+        <source>A message that was attached to the tipcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Tipcoin network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

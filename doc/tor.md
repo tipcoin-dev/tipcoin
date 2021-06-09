@@ -1,4 +1,4 @@
-# TOR SUPPORT IN MONACOIN
+# TOR SUPPORT IN TIPCOIN
 
 It is possible to run Tipcoin Core as a Tor hidden service, and connect to such services.
 
@@ -39,17 +39,17 @@ reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equiv
 config file): *Needed for Tor version 0.2.7.0 and older versions of Tor only. For newer
 versions of Tor see [Section 3](#3-automatically-listen-on-tor).*
 
-	HiddenServiceDir /var/lib/tor/monacoin-service/
+	HiddenServiceDir /var/lib/tor/tipcoin-service/
 	HiddenServicePort 9469 127.0.0.1:9469
 	HiddenServicePort 19469 127.0.0.1:19469
 
 The directory can be different of course, but (both) port numbers should be equal to
 your tipcoind's P2P listen port (9469 by default).
 
-	-externalip=X   You can tell monacoin about its publicly reachable address using
+	-externalip=X   You can tell tipcoin about its publicly reachable address using
 	                this option, and this can be a .onion address. Given the above
 	                configuration, you can find your .onion address in
-	                /var/lib/tor/monacoin-service/hostname. For connections
+	                /var/lib/tor/tipcoin-service/hostname. For connections
 	                coming from unroutable addresses (such as 127.0.0.1, where the
 	                Tor proxy typically runs), .onion addresses are given
 	                preference for your node to advertise itself with.

@@ -410,8 +410,8 @@
         <translation>Orebalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and monacoin: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en monacoin: URI's)</translation>
+        <source>Request payments (generates QR codes and tipcoin: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en tipcoin: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,8 +422,8 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
-        <source>Open a monacoin: URI or payment request</source>
-        <translation>Skep 'n monacoin: URI of betalingsversoek</translation>
+        <source>Open a tipcoin: URI or payment request</source>
+        <translation>Skep 'n tipcoin: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>

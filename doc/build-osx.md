@@ -41,10 +41,10 @@ from the root of the repository.
 Build Tipcoin Core
 ------------------------
 
-1. Clone the Tipcoin Core source code and cd into `monacoin`
+1. Clone the Tipcoin Core source code and cd into `tipcoin`
 
         git clone https://github.com/tipcoin-dev/tipcoin
-        cd monacoin
+        cd tipcoin
 
 2.  Build Tipcoin Core:
 
@@ -70,7 +70,7 @@ Build Tipcoin Core
 
     or
 
-        cd ~/monacoin/src
+        cd ~/tipcoin/src
         cp tipcoind /usr/local/bin/
         cp tipcoin-cli /usr/local/bin/
 
@@ -81,7 +81,7 @@ Tipcoin Core is now available at `./src/tipcoind`
 
 Before running, it's recommended that you create an RPC configuration file.
 
-    echo -e "rpcuser=monacoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Tipcoin/tipcoin.conf"
+    echo -e "rpcuser=tipcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Tipcoin/tipcoin.conf"
 
     chmod 600 "/Users/${USER}/Library/Application Support/Tipcoin/tipcoin.conf"
 
@@ -94,7 +94,7 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/tipcoind -daemon # Starts the monacoin daemon.
+    ./src/tipcoind -daemon # Starts the tipcoin daemon.
     ./src/tipcoin-cli --help # Outputs a list of command-line options.
     ./src/tipcoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
