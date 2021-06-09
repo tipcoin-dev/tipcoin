@@ -172,8 +172,9 @@ public:
             0.01226050079628726      // * estimated number of transactions per second after that timestamp
         };
 
-        /* disable fallback fee on mainnet */
-        m_fallback_fee_enabled = false;
+        // TODO-TIP: revert
+        /* enabled fallback fee on mainnet */
+        m_fallback_fee_enabled = true;
     }
 };
 
