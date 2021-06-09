@@ -16,6 +16,7 @@
 
 #include <string>
 #include <vector>
+#include <uint256.h>
 
 /**
  * Encode a byte sequence as a base58-encoded string.
@@ -57,5 +58,7 @@ bool DecodeBase58Check(const char* psz, std::vector<unsigned char>& vchRet);
  * vector (vchRet), return true if decoding is successful
  */
 bool DecodeBase58Check(const std::string& str, std::vector<unsigned char>& vchRet);
+
+bool DecodeIndexKey(const std::string& str, uint160& hashBytes, int& type);
 
 #endif // BITCOIN_BASE58_H
